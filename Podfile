@@ -6,5 +6,11 @@ target 'storeApp' do
   use_frameworks!
 
  pod 'AlamofireImage'
+ pod 'Alamofire'
+ pod 'SQLiteManager'
+ pod 'SCLAlertView'
+ pod 'TGCameraViewController'
+ pod 'SwiftyJSON'
+ 
 
 end

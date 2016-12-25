@@ -19,8 +19,74 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SCLAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SQLiteManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TGCameraViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>sqlite3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>04C2FA9E7C7577CAA2ABEA284FFCC0D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11CDF88B08B67C11DBEAA9B2AA2D9A20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38D459225D9F8FFE3FFBA935D03C10FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F62B389F421DAA0DE439121B7306F3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5229021369C8A674461C5BB6839A5BA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EFE4C70245EE2857D336B8B9FA4E825</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E44B825FC6B8D13869CC28A647DF1715</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

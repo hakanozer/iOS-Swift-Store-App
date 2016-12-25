@@ -7,58 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05006BDD7301FCF2678618DEDCC69B94 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40925083A89DB524274043A5544403F4 /* UIImage+AlamofireImage.swift */; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A86E4845F495D22067D31DD2444516 /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 319D0D5C0A449FE881C76727B80F34B3 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		202822E4668C16D115A8F68F3ADF0E0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6EFA1B14F4F2AC1C907F7D8D75E2A2 /* ImageDownloader.swift */; };
-		245DAEE5793271CA5BECA7A816092142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
-		27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78F0C59D72E536A49A29DF9551B2FC /* ImageFilter.swift */; };
-		2BD7CFD41DACC439E8C0A527F1643495 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A0238C2D2ED7E1BCF74C638704BCC /* Request+AlamofireImage.swift */; };
-		2EA0415A1A8A4FFC7403E201F915F9A4 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99FF6D0367AC8FAF28B714B9C517B09 /* AFIError.swift */; };
-		304C5736AC5D49B526C709397D0CF048 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F864B86D55C1EBA65BB1005488236 /* UIImageView+AlamofireImage.swift */; };
-		32EDA9ED83F4442303A46839027E152E /* AlamofireImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B91CDE9C60D5C92C6A2EE8754EB1042 /* AlamofireImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF45CF505DC4805961C6AE375E9B4449 /* TaskDelegate.swift */; };
-		37F951F2BDB75BD682C2999EB7B51A35 /* AlamofireImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A072CF49792CCCD02FBE2404E54F3964 /* AlamofireImage-dummy.m */; };
-		536C9F68734E4E561CDF38FBDE69FAE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C040C3370B9A89F31C2BC19AF5D1C /* Request.swift */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46909E67FE468BAA9A40190506BC2DD /* DispatchQueue+Alamofire.swift */; };
-		613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61BFE0C2AB6D5B144D90851B0FBBDA /* ServerTrustPolicy.swift */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB169F7011C3AE22F10E4FB8BB941D0 /* SessionDelegate.swift */; };
-		7C0EB302F2A6F7A49C5585089F4966AC /* Pods-storeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53123FBBA4F8EB533FCB213BD5B928C4 /* Pods-storeApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB939DAB70B7498BD951FDFBB552630 /* Result.swift */; };
-		8C7D9228C3C57AB09DB4B4593306BAB9 /* Pods-storeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D56EE9B9E028909E2DE28964FC8B9 /* Pods-storeApp-dummy.m */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DA7696A230A8C5098EDB1708AB122B /* AFError.swift */; };
-		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750B175C7230B153936AECFDF9D4B69 /* NetworkReachabilityManager.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD4D2047EEAE80AEBCB1594D341FE8 /* Alamofire-dummy.m */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F0D298505D12F22418F96BD2D6DE4F /* SessionManager.swift */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A337CF61ED3C76DCDB6CABF7DDA57F4 /* MultipartFormData.swift */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B347EC7347C5B752DAEF7EFC85B3D /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E36A061568443C4892C00390B9395C /* ParameterEncoding.swift */; };
-		C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F506873F53797C3F19F6F175128C827D /* UIButton+AlamofireImage.swift */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF21FE9D010AA7E8064CAB3DDEE4D01 /* Response.swift */; };
-		D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B46CA3DB56C3D2E677654A1304B15 /* ImageCache.swift */; };
-		E1FF4985892E23B75A3381EFF830DFD5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8303DFF4F0412C06016FB01FE8A0AE2C /* Image.swift */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48160E946CF60C44697D4766239A69 /* Notifications.swift */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1F2DAC9C123E8BF5B8BBA7C3F17E4E /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBD180178B74D26C52790871D11EA82 /* Alamofire.swift */; };
+		05006BDD7301FCF2678618DEDCC69B94 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B7AB044BC6446095A4DCE26D47B7C /* UIImage+AlamofireImage.swift */; };
+		099E89A90F6877C7E156FD6EF6EEB444 /* TGCameraColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 66291FF06B80CAE015E7E6E03DCA982D /* TGCameraColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA232B27173A0E5496F0DA441CA79ED /* TGCameraSlideDownView.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B87BE30E63E426725AD96E5F1ADD2F /* TGCameraSlideDownView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EAC22378CEE7704F529C168EBCCF580 /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1B8338A6ED9265651DA5631833D0C9 /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B355870EBB948C0B6AEB4626E7DF64BC /* Timeline.swift */; };
+		1163F2E34EF0CF6D51642734CB25B616 /* TGTintedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CCBE43D2CF8255D0B5644D0A2DD0065 /* TGTintedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11EBD04977D17A99033C3CFCAA00C4D6 /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E4C8F3E37A5F1D80277BC5D44EEE4E /* SQLite.swift */; };
+		13ACF95AF2D1C923BEA8BB96A66AA1CB /* TGCameraToggle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5BA5DB124CEA0E9F0985CF90158CC6 /* TGCameraToggle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145BD4D548FC02F35DD922BB7C562615 /* TGAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0F26FB2C8BD63D9BC9BBE51A29DC82 /* TGAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9736B56B015F3BF09D1A847B6D97009F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BF62FB879E98B12818EAFBF65C6ACCB /* TGPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB33CAF1C5AD8163CDDDF22835EC516 /* TGPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C9289E7D83B3873F0DA023CFD4F645F /* TGAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C862666F38583E56A483930C4C18110 /* TGAlbum.m */; };
+		1C941FE8AD24594D07754CCA119C6B5C /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A540B12D579E9AA8A309FDC618A1D05 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F08575FA5CE5960EE9D4F9A6517A336 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1D8FD13067A3AA8AB60A2555D8BAB3 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		202822E4668C16D115A8F68F3ADF0E0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2128B2054A91ECE72B871BFF8BA2FF /* ImageDownloader.swift */; };
+		23B54BB78F159C0406D0B2F86C826FB4 /* TGCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = A85511A790FB2F878B1D571F044631B7 /* TGCameraFocusView.m */; };
+		245DAEE5793271CA5BECA7A816092142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */; };
+		248691DDAEEA27663D23B5C7ADF5FBEB /* UIImage+CameraFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F141FC1BCBD3AF4FE74CCCC11627E7 /* UIImage+CameraFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2640306F927F6A8DEE65B3FC94A28181 /* TGCameraFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF339E9333B3F73257B4FFA943AD33 /* TGCameraFunctions.m */; };
+		275536C1A181158061569B5ECD4314FF /* sqlite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588643790CFC93EB5C4A2D82B712F286 /* sqlite3.framework */; };
+		27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E71A5858C091A57231AC995FD3EF83 /* ImageFilter.swift */; };
+		28D391414F91A7D1B29D693AFF7BAE2A /* TGCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3396842FE1CAD73CEF5BDC55F437D /* TGCameraGrid.m */; };
+		2B301ED2B3A957926321954FDC4397D6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FD797FE8E6AB538C3BC5A4C8C25A25 /* SwiftyJSON.swift */; };
+		2BD7CFD41DACC439E8C0A527F1643495 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29999D0323D0453FE7FE7D32AAC0E47 /* Request+AlamofireImage.swift */; };
+		2D0FFF17420606C053A021D184931482 /* TGCameraShot.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C50AF9780E145BB56C4743950165E46 /* TGCameraShot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D7878C714C05AE4FBBE3AEA7065AE9C /* SQLitePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C00A7866699617C4FC0C5DFCABD689 /* SQLitePool.swift */; };
+		2E790C1F5672682D0E143755AB9FD397 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815D4CB706625A00142C4091FC50C140 /* AssetsLibrary.framework */; };
+		2EA0415A1A8A4FFC7403E201F915F9A4 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB9C07C1BD5670280DAE7471445C869 /* AFIError.swift */; };
+		2F4CCD3B049DE0730E5B7FD24E3070A5 /* TGCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C516A562B94FCA6BCCE6D0BC2845994E /* TGCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FA5A6DE8B47BBE3360746A376E2EFDF /* TGCameraFocusView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5648685D9B3C95260285F6907556C33A /* TGCameraFocusView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		304C5736AC5D49B526C709397D0CF048 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892EE33E88ACE3214814191B7BC400C /* UIImageView+AlamofireImage.swift */; };
+		32D3CF354155BF3398AC2C8503886C74 /* TGCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E9551A1368B1DA9950C5D8551DA08ECB /* TGCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32EDA9ED83F4442303A46839027E152E /* AlamofireImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 702E0A87EA3EE10E0397BB14AD83DB59 /* AlamofireImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356C1777014FC2E375FB434200228AA8 /* TGCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD1A022F6F948C708EB1495D8E15675 /* TGCameraViewController-dummy.m */; };
+		360A5359C8781E6E9EE3796D712FA9A2 /* sqlite3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2343920600118945D4B967EE79EC2B /* sqlite3-dummy.m */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC890B9E9A25E7772BAC3A857A26EC /* TaskDelegate.swift */; };
+		37F951F2BDB75BD682C2999EB7B51A35 /* AlamofireImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF68FF08ED0A4FB022E23F577B5102BF /* AlamofireImage-dummy.m */; };
+		39ECCB424D27DD1FED0E472C56A3A858 /* TGTintedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D287F8F83845A225524ED59EE0B416 /* TGTintedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6A9A0792BAF2AFEB43CFB7D2255153 /* TGCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5EADBABB7D567193C23A5F7BC2CACC /* TGCameraFilterView.m */; };
+		3B8BCCE7D110A839049E68DC2D375147 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D084DAA300DE88C63A58C8540A978 /* SQLiteManager.swift */; };
+		4536C029EFF7CD32D5872A3946A89F86 /* TGTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441FCC25344D48FC9EA16E981CF49AA /* TGTintedButton.m */; };
+		48F40E3EA485859FA432D750C8DA3FCB /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B142F4EB4A6B00A867A84702D820160 /* HelperFunctions.swift */; };
+		49A64404A6841341BD39D6F850246DF1 /* SQLiteManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD2C31DE5D761E1F39E1A174B3FA0F /* SQLiteManager-dummy.m */; };
+		4E0C3A2410E923F7750B40FA57EDAED1 /* TGCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D1F0938B00A3CB8A8DA71B7BC993EA /* TGCameraViewController.m */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9326A10B283EAFBE334915D72A6B714B /* Request.swift */; };
+		56BFFDEDF7CE920210B19155F8BA6387 /* TGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 612D51333852DD4B242C670F20DF545C /* TGCamera.m */; };
+		5758C753F16983504E1D30239A2BF545 /* TGCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FB1915674DE9B9AB3AA7D7AB77A846 /* TGCameraNavigationController.m */; };
+		5C2843B174AB204E11A2AECEACCB7B11 /* TGCameraFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6B007A0503B236236ED13A429C4BB5 /* TGCameraFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D7667512D1239935C8D6311BA52468B /* Pods-storeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D56EE9B9E028909E2DE28964FC8B9 /* Pods-storeApp-dummy.m */; };
+		5FA6D3551B75FE1090F3AAE363994F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */; };
+		610229D4960A5DAE3CFE2E18314AFA0C /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6577DD1C573D3CF9374715AFB6437C /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D238A9DBE1333E61DEBCE0E3F8EAB /* DispatchQueue+Alamofire.swift */; };
+		613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B114302897329D98DCFCCE862BCA1D2 /* Alamofire.framework */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0722CE863D3EED20F9CBDBB6E8DFF6B /* ServerTrustPolicy.swift */; };
+		669316AAD33130433A6BB19065D98284 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D106003389A42DE6B9E85CC2E02C2C /* AVFoundation.framework */; };
+		6DA29AA61D99086EF15606F749213AFB /* TGAssetImageFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A0AE61E87BD83A0BAAE64E580F1B84 /* TGAssetImageFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD839A55424A4642E64025FBC2E1589 /* TGCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4853DAAAC0200E140368D4A3293DB4F /* TGCameraViewController.xib */; };
+		6FFBFCF9E3281ADB4E8F882D8BC3923D /* TGCameraSlideView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FDCE22E7A3BF74EA157C24E540314F /* TGCameraSlideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75574205FF7D17D4CF5F23FC6D1AE210 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F189010E667FFD130650B46B87700B7 /* SCLAlertView-dummy.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81742B8DCA2004508259B7E9C9C29604 /* SessionDelegate.swift */; };
+		7D0BA3C7769FB561375A47342D4BEC8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */; };
+		7D1F20577E225810DCEC28B48E21504F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BF02F1F6DE22C4BE2F05B4129BCB82 /* SwiftyJSON-dummy.m */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D05B9BDE53E51434D40F4765D165F /* Result.swift */; };
+		7F3FD508D385CA641FE6B6E0DC59D419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */; };
+		85D6ADB95E4CDE8FC30AF534D6FFDB35 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B97E63A029DAE7EC45B02C19DF89AD20 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8637FBD7E247F5DCDFD15D281A4EF12D /* TGCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806584AA366451A0AA30A5DA1FD459F /* TGCameraSlideUpView.m */; };
+		874E01DF153D4A6A61B586C6CC65B715 /* TGPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8111E7034F7CB6D69C7649818769A1 /* TGPhotoViewController.xib */; };
+		88ADB3F6DF99853B01C590878C3960E9 /* TGCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B271CB02DB2C794ADDFEEC7BA11BDB /* TGCameraSlideView.m */; };
+		8D2B4CCAD9F7F3DF0EE12C9118D7A8EF /* TGCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A2F8F2440EABC955C59A6D81C4F2EA /* TGCameraAuthorizationViewController.m */; };
+		93D288335789BDAD61CC1845236FB14A /* SQLiteManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AE1854F54967C8EFFDBFDA91195A2 /* SQLiteManagerError.swift */; };
+		93D53616336DA232349D4B6F1A52B5D4 /* SQLiteManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DA5588CDAC0818BEE90C2D6521B01F /* SQLiteManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B3EBD560CF7C32B726B55C30C8E072 /* TGCameraViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE905CDBCD1EF52392B252BF86CB5460 /* TGCameraViewController.bundle */; };
+		9587F72A6C61E51BFB9F56D9EAE7DF5E /* TGAssetsLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E57C3313BC734172DB9EBBB37321351 /* TGAssetsLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B7EB6992D5FD481ADCA62CF5BD22640 /* sqlite3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A22718395E4D3DA22CB3ED40681A3B /* sqlite3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21CE4F92B4761793D2BA9AFD7622260 /* AFError.swift */; };
+		9EF0546902FB30D3A48AD3C3387FB554 /* TGCameraFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CB9762A4C566EADAA2819CF7CCBDA6 /* TGCameraFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F0FA259F62A7F1A18210F74AB858F30 /* TGCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D11DF0B4A8A8F1FBF29ED64FC7459A3 /* TGCameraShot.m */; };
+		A01CB344AA157F8C3D4C47590675ED28 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0F56B1D47CBBE8B2D62B8E048D75E4 /* CoreImage.framework */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE94D7F552417170AB28B04882BBEE9 /* NetworkReachabilityManager.swift */; };
+		A2FC70C093A58271F6DE74EAAD03A375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */; };
+		A4CE4EF7AAC4A5842AA4BF66C06FF398 /* TGAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 38943F4F06F9155A948403BEC76CADC6 /* TGAssetsLibrary.m */; };
+		A4F1F44D73ECE13051D0DE205E22B983 /* TGAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B5904D0F9DB6E2156800B0CE74362DD6 /* TGAssetImageFile.m */; };
+		A59B3011E14D266D9D483ED09F740421 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8104DCDE134CC9E6BC411453AE0FCDEA /* SCLExtensions.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1720FD521AE8DAF63235C5D40B65C987 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9469DD92B45B1FA013EA369DC5E7A3E3 /* SessionManager.swift */; };
+		B33027C99A4102BA3652977128361463 /* TGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9FD3CCE6655B79D9252038FBC3D8D /* TGPhotoViewController.m */; };
+		B3D6DC0EFB2AFA59C310B91BAE44C2F8 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475093E0E7A0E1DA99D2C92366D774C /* SCLAlertView.swift */; };
+		B5B342E600EDF4B8320876A2ED6E8191 /* TGCameraGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8017B6846AD8C85D51837D582C8D0169 /* TGCameraGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63724DEDBF0DDD5468DA0EB81B11E231 /* MultipartFormData.swift */; };
+		B71A8B0660711A83E33BDE85956A3C95 /* TGCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE661F48911A59B2198A1540398A95E7 /* TGCameraGridView.m */; };
+		BBC1514F26B8D1AEBADEDA9E3D1DE2DC /* TGTintedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CDD6CA1542B1D11198A9406C0DEBF4 /* TGTintedLabel.m */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B50E967C5A132D94762E167D3D2CB /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3475DEB9F76401685B7BDA23B6D7A7EB /* ParameterEncoding.swift */; };
+		C7014C815F685188DD97C33E50CA7E89 /* TGCameraFlash.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EE3C7247146D37F8E5CAA4B7E01FBA /* TGCameraFlash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF4FE8EBFF717EDDE1B05B7E01D54C /* UIButton+AlamofireImage.swift */; };
+		CA806A2043CB653C7E72DBECB1A15F79 /* TGCameraFilterView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE64D873E0E34D02E0ACFF3B17E3BFD1 /* TGCameraFilterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D999D074DBCBB748EDB34F9EDB3CC /* Response.swift */; };
+		CB6E0A93AC06803A561A19A6753CA998 /* TGCameraGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F36D5D23EFB4D1DC8EDCF94D19EF98F /* TGCameraGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDDEDFBCE6DBB3849CC5E1376838B50A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */; };
+		CF6076D49F8DE38D940AC065BFE1EB6D /* TGCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEABC7ACC8578A0F638FAE0FFFD0753 /* TGCameraFlash.m */; };
+		D0630B14CD37CDF5CD0D9972EA006096 /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA6309F30DF1BE2FD8560528EB8A3A /* UIImage+CameraFilters.m */; };
+		D0FD921D33112DF6B2D8CD0FB588F233 /* TGCameraNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E798C1CEFC5974D3E48F0289BFF68B /* TGCameraNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D294EB3FD746EA65CCDE4228F2FA62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */; };
+		D414458D4D290D23D6E5163AE184974E /* TGCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 836B84A78E25AEE0092596676DF75D05 /* TGCameraToggle.m */; };
+		D485EF2A395E37E3B9778B294BCCE549 /* TGCameraSlideUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C136C5F5AFB27D45CCC51FE3C010175 /* TGCameraSlideUpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5517BEB003CCC790CAD7E553A5AD491 /* TGCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CB46FD6C119DB8CA9F5F57E276C3431 /* TGCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A2786637BDBC99B7E40AC4E02461A /* ImageCache.swift */; };
+		E1FF4985892E23B75A3381EFF830DFD5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137904EF1D0A32881F00F8D380E00268 /* Image.swift */; };
+		E667EA568C9EED8F8F5EB42C23DB135D /* TGCameraAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E35CD5684E520AAE078D0354A1BD1E63 /* TGCameraAuthorizationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3B1232041582D94C640A9E0392F17E /* Pods-storeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53123FBBA4F8EB533FCB213BD5B928C4 /* Pods-storeApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EECFBA14FF655E1A6407A9F1E93963AB /* TGCameraAuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DECD9158352C3E0F2BF61A5227D382A /* TGCameraAuthorizationViewController.xib */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF29A7CDB501BB8E3ECEF95C69EB6A0 /* Notifications.swift */; };
+		EFFA0893A2FC0CCC9AC2074A9E73662F /* TGCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 12132FC1C8E9AC2539401F01AFCBDD59 /* TGCameraFocus.m */; };
+		F56382C580BEB3D76533DAD69740011B /* TGCameraViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E26FE952B28B62CFD6E93CA93305A3 /* TGCameraViewController.xcassets */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49100AD1DA8C79ECBA930466D7F491BC /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3181ADA29A0A41FB4BBF8344AC36102A /* Alamofire.swift */; };
+		FAC7A2C0979FB5FB008EC4A4DD6F77B0 /* TGCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DF837B381F3DB83F337C4899B69FE /* TGCameraColor.m */; };
+		FB5BDA60A5A0DD3744F043486C56898B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53285292E2E2B0C4DA2491F9382E1F47 /* UIKit.framework */; };
+		FC03B7DFE923E31F4865B9016D016A1A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA7590C8CA3B807F9F0ECD500EBC91D /* MobileCoreServices.framework */; };
+		FF631E64DA141753E0900CEAB687F970 /* TGCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEC441F9AAEF335ED3E1233463F13FF /* TGCameraSlideDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		028FC59A5D2D2202559B07AC6AECB911 /* PBXContainerItemProxy */ = {
+		3668F8208C5E1FE49E16CBD45A56B6FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 4F62B389F421DAA0DE439121B7306F3A;
+			remoteInfo = sqlite3;
 		};
-		3DDD6B9D75EDD875C42D9C0F892ED0DC /* PBXContainerItemProxy */ = {
+		40ABD4E824FD49F33D19D091CAACD768 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9EFE4C70245EE2857D336B8B9FA4E825;
 			remoteInfo = AlamofireImage;
+		};
+		4B5A8B0629E1559E162EB806BFD4B00E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5229021369C8A674461C5BB6839A5BA7;
+			remoteInfo = TGCameraViewController;
+		};
+		7707BA33D5A502CDAF1C8337EE7B3DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44B825FC6B8D13869CC28A647DF1715;
+			remoteInfo = SQLiteManager;
 		};
 		A1758AA696D56310AA192B587162169A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -67,71 +166,241 @@
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
+		A18E9F2348011B1E8DD752971E9100F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		B7D72047A14AF67A83CB9416F2C7FA2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D459225D9F8FFE3FFBA935D03C10FD;
+			remoteInfo = SCLAlertView;
+		};
+		FB9F1AF699CA0D6A9391474F0FD7F76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11CDF88B08B67C11DBEAA9B2AA2D9A20;
+			remoteInfo = SwiftyJSON;
+		};
+		FBBBF06E635D04777BBA3DC350A50E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F62B389F421DAA0DE439121B7306F3A;
+			remoteInfo = sqlite3;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00273894B2CACADC70DE7C63D9DE900F /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
-		017C040C3370B9A89F31C2BC19AF5D1C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		1B8F864B86D55C1EBA65BB1005488236 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
-		22FD4D2047EEAE80AEBCB1594D341FE8 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		0018113549E37DE1F3A4BAD0C384A507 /* AlamofireImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.xcconfig; sourceTree = "<group>"; };
+		02D287F8F83845A225524ED59EE0B416 /* TGTintedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGTintedButton.h; path = TGCameraViewController/Classes/UI/TGTintedButton.h; sourceTree = "<group>"; };
+		03BF02F1F6DE22C4BE2F05B4129BCB82 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		0441FCC25344D48FC9EA16E981CF49AA /* TGTintedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGTintedButton.m; path = TGCameraViewController/Classes/UI/TGTintedButton.m; sourceTree = "<group>"; };
+		055A2786637BDBC99B7E40AC4E02461A /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
+		0596D17F2C65191C431ED8703B8A0D0F /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E15B643C1369E31888A1D89E4BE0AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B142F4EB4A6B00A867A84702D820160 /* HelperFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = Sources/HelperFunctions.swift; sourceTree = "<group>"; };
+		0C136C5F5AFB27D45CCC51FE3C010175 /* TGCameraSlideUpView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideUpView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideUpView.h; sourceTree = "<group>"; };
+		12132FC1C8E9AC2539401F01AFCBDD59 /* TGCameraFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFocus.m; path = TGCameraViewController/Classes/Helper/TGCameraFocus.m; sourceTree = "<group>"; };
+		137904EF1D0A32881F00F8D380E00268 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
+		1720FD521AE8DAF63235C5D40B65C987 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		17B87BE30E63E426725AD96E5F1ADD2F /* TGCameraSlideDownView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideDownView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideDownView.h; sourceTree = "<group>"; };
+		1956AE8341FBD5668BF778CCD0B4129B /* TGCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TGCameraViewController.modulemap; sourceTree = "<group>"; };
+		1BB33CAF1C5AD8163CDDDF22835EC516 /* TGPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGPhotoViewController.h; path = TGCameraViewController/Classes/Control/TGPhotoViewController.h; sourceTree = "<group>"; };
+		1DECD9158352C3E0F2BF61A5227D382A /* TGCameraAuthorizationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGCameraAuthorizationViewController.xib; path = Base.lproj/TGCameraAuthorizationViewController.xib; sourceTree = "<group>"; };
+		1E0F26FB2C8BD63D9BC9BBE51A29DC82 /* TGAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAlbum.h; path = TGCameraViewController/Classes/Helper/TGAlbum.h; sourceTree = "<group>"; };
+		1E910F34C0B2E5CF6D1EF794A35B00A4 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		1EEABC7ACC8578A0F638FAE0FFFD0753 /* TGCameraFlash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFlash.m; path = TGCameraViewController/Classes/Helper/TGCameraFlash.m; sourceTree = "<group>"; };
 		244364A0953086B63C96ACBD42A9D5AB /* Pods-storeApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-storeApp-frameworks.sh"; sourceTree = "<group>"; };
-		29D61A3CF14C9F8A3215CACDE1CD26EE /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		2B91CDE9C60D5C92C6A2EE8754EB1042 /* AlamofireImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-umbrella.h"; sourceTree = "<group>"; };
-		2D6EFA1B14F4F2AC1C907F7D8D75E2A2 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
-		2D6F897E8718BCA0F1B7F123EBBBEBFF /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		319D0D5C0A449FE881C76727B80F34B3 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		3B1944BA9F8A9E3207ABC4175503DA0F /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A2F8F2440EABC955C59A6D81C4F2EA /* TGCameraAuthorizationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraAuthorizationViewController.m; path = TGCameraViewController/Classes/Control/TGCameraAuthorizationViewController.m; sourceTree = "<group>"; };
+		2CCBE43D2CF8255D0B5644D0A2DD0065 /* TGTintedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGTintedLabel.h; path = TGCameraViewController/Classes/UI/TGTintedLabel.h; sourceTree = "<group>"; };
+		2E57C3313BC734172DB9EBBB37321351 /* TGAssetsLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAssetsLibrary.h; path = TGCameraViewController/Classes/Helper/TGAssetsLibrary.h; sourceTree = "<group>"; };
+		3181ADA29A0A41FB4BBF8344AC36102A /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		33D106003389A42DE6B9E85CC2E02C2C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3475DEB9F76401685B7BDA23B6D7A7EB /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		376BB59BF846BD03A0C02C3C7EF4356B /* SQLiteManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLiteManager-prefix.pch"; sourceTree = "<group>"; };
+		3892EE33E88ACE3214814191B7BC400C /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		38943F4F06F9155A948403BEC76CADC6 /* TGAssetsLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAssetsLibrary.m; path = TGCameraViewController/Classes/Helper/TGAssetsLibrary.m; sourceTree = "<group>"; };
+		392DF2FA14BC6C3A917F3C851E518B06 /* sqlite3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sqlite3-prefix.pch"; sourceTree = "<group>"; };
+		3AD1A022F6F948C708EB1495D8E15675 /* TGCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		3BDFE982987BFAE76B6984A86AF4AF35 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		3D11DF0B4A8A8F1FBF29ED64FC7459A3 /* TGCameraShot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraShot.m; path = TGCameraViewController/Classes/Helper/TGCameraShot.m; sourceTree = "<group>"; };
+		3E4D05B9BDE53E51434D40F4765D165F /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		3E4D56EE9B9E028909E2DE28964FC8B9 /* Pods-storeApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-storeApp-dummy.m"; sourceTree = "<group>"; };
-		3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		40925083A89DB524274043A5544403F4 /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
-		445B347EC7347C5B752DAEF7EFC85B3D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		3E6B007A0503B236236ED13A429C4BB5 /* TGCameraFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFocus.h; path = TGCameraViewController/Classes/Helper/TGCameraFocus.h; sourceTree = "<group>"; };
+		3FC3396842FE1CAD73CEF5BDC55F437D /* TGCameraGrid.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraGrid.m; path = TGCameraViewController/Classes/Helper/TGCameraGrid.m; sourceTree = "<group>"; };
+		45FB1915674DE9B9AB3AA7D7AB77A846 /* TGCameraNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraNavigationController.m; path = TGCameraViewController/Classes/Control/TGCameraNavigationController.m; sourceTree = "<group>"; };
+		4899BD26CC46D84E7824CD94B46E60A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49100AD1DA8C79ECBA930466D7F491BC /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		49303EC74BDBE927E654E46695A96A28 /* Pods_storeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_storeApp.framework; path = "Pods-storeApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5EADBABB7D567193C23A5F7BC2CACC /* TGCameraFilterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFilterView.m; path = TGCameraViewController/Classes/UI/TGCameraFilterView.m; sourceTree = "<group>"; };
+		4C862666F38583E56A483930C4C18110 /* TGAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAlbum.m; path = TGCameraViewController/Classes/Helper/TGAlbum.m; sourceTree = "<group>"; };
+		4D2343920600118945D4B967EE79EC2B /* sqlite3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sqlite3-dummy.m"; sourceTree = "<group>"; };
+		4D6B7AB044BC6446095A4DCE26D47B7C /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
+		4EA7590C8CA3B807F9F0ECD500EBC91D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		50D1F0938B00A3CB8A8DA71B7BC993EA /* TGCameraViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraViewController.m; path = TGCameraViewController/Classes/Control/TGCameraViewController.m; sourceTree = "<group>"; };
 		53123FBBA4F8EB533FCB213BD5B928C4 /* Pods-storeApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-storeApp-umbrella.h"; sourceTree = "<group>"; };
-		5D61BFE0C2AB6D5B144D90851B0FBBDA /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		5F1F2DAC9C123E8BF5B8BBA7C3F17E4E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		6FBD180178B74D26C52790871D11EA82 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53285292E2E2B0C4DA2491F9382E1F47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		53FDFFE577C1E2E9F1ECBF2A405C243E /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5648685D9B3C95260285F6907556C33A /* TGCameraFocusView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFocusView.h; path = TGCameraViewController/Classes/UI/TGCameraFocusView.h; sourceTree = "<group>"; };
+		588643790CFC93EB5C4A2D82B712F286 /* sqlite3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sqlite3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B114302897329D98DCFCCE862BCA1D2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0F56B1D47CBBE8B2D62B8E048D75E4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		5C50AF9780E145BB56C4743950165E46 /* TGCameraShot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraShot.h; path = TGCameraViewController/Classes/Helper/TGCameraShot.h; sourceTree = "<group>"; };
+		5CB46FD6C119DB8CA9F5F57E276C3431 /* TGCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCamera.h; path = TGCameraViewController/Classes/Helper/TGCamera.h; sourceTree = "<group>"; };
+		5F189010E667FFD130650B46B87700B7 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		6006A4A61DB9CEE203F18FB8E34792DB /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
+		60F7D89A9DCEC18ED0E041F26F554E8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		612D51333852DD4B242C670F20DF545C /* TGCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCamera.m; path = TGCameraViewController/Classes/Helper/TGCamera.m; sourceTree = "<group>"; };
+		63724DEDBF0DDD5468DA0EB81B11E231 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		66291FF06B80CAE015E7E6E03DCA982D /* TGCameraColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraColor.h; path = TGCameraViewController/Classes/Helper/TGCameraColor.h; sourceTree = "<group>"; };
+		66A0AE61E87BD83A0BAAE64E580F1B84 /* TGAssetImageFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGAssetImageFile.h; path = TGCameraViewController/Classes/Model/TGAssetImageFile.h; sourceTree = "<group>"; };
+		6806584AA366451A0AA30A5DA1FD459F /* TGCameraSlideUpView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideUpView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideUpView.m; sourceTree = "<group>"; };
+		68A9FD3CCE6655B79D9252038FBC3D8D /* TGPhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGPhotoViewController.m; path = TGCameraViewController/Classes/Control/TGPhotoViewController.m; sourceTree = "<group>"; };
+		6B4D999D074DBCBB748EDB34F9EDB3CC /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		6D04713F0CE0AF15FBF2C6582BAAC68A /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
+		6F36D5D23EFB4D1DC8EDCF94D19EF98F /* TGCameraGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraGrid.h; path = TGCameraViewController/Classes/Helper/TGCameraGrid.h; sourceTree = "<group>"; };
+		702E0A87EA3EE10E0397BB14AD83DB59 /* AlamofireImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-umbrella.h"; sourceTree = "<group>"; };
+		70CDD6CA1542B1D11198A9406C0DEBF4 /* TGTintedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGTintedLabel.m; path = TGCameraViewController/Classes/UI/TGTintedLabel.m; sourceTree = "<group>"; };
 		7104B46153183E85699AD879A818FA3C /* Pods-storeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-storeApp.debug.xcconfig"; sourceTree = "<group>"; };
-		75A86E4845F495D22067D31DD2444516 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		7A337CF61ED3C76DCDB6CABF7DDA57F4 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		7F1B46CA3DB56C3D2E677654A1304B15 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
-		8303DFF4F0412C06016FB01FE8A0AE2C /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
-		8AEA17C19D3C87BDCD8C1B077ABADA03 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		716DF837B381F3DB83F337C4899B69FE /* TGCameraColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraColor.m; path = TGCameraViewController/Classes/Helper/TGCameraColor.m; sourceTree = "<group>"; };
+		7C2128B2054A91ECE72B871BFF8BA2FF /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
+		7C5B50E967C5A132D94762E167D3D2CB /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		7C5BA5DB124CEA0E9F0985CF90158CC6 /* TGCameraToggle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraToggle.h; path = TGCameraViewController/Classes/Helper/TGCameraToggle.h; sourceTree = "<group>"; };
+		7CDA6309F30DF1BE2FD8560528EB8A3A /* UIImage+CameraFilters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CameraFilters.m"; path = "TGCameraViewController/Classes/Category/UIImage+CameraFilters.m"; sourceTree = "<group>"; };
+		7CE94D7F552417170AB28B04882BBEE9 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		8017B6846AD8C85D51837D582C8D0169 /* TGCameraGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraGridView.h; path = TGCameraViewController/Classes/UI/TGCameraGridView.h; sourceTree = "<group>"; };
+		80C0E1370E4D521C80BAC22ACAAC8C5F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8104DCDE134CC9E6BC411453AE0FCDEA /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		815D4CB706625A00142C4091FC50C140 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		81742B8DCA2004508259B7E9C9C29604 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		836B84A78E25AEE0092596676DF75D05 /* TGCameraToggle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraToggle.m; path = TGCameraViewController/Classes/Helper/TGCameraToggle.m; sourceTree = "<group>"; };
+		837D238A9DBE1333E61DEBCE0E3F8EAB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		8479561E15DCAEB9CA824A1A6D015271 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FBF01D4EA467234CE69AF2647899F0 /* TGCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TGCameraViewController.framework; path = TGCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1FA8768D14CCBE3CB725EA344623B1 /* SQLiteManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SQLiteManager.modulemap; sourceTree = "<group>"; };
+		8A540B12D579E9AA8A309FDC618A1D05 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		8ACBF32D69A6202095E90A084E0E89E9 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		8D8B311337B21A769624A54D3D091C61 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		8E62CF005D78A3E3F6778D40AA532193 /* SQLiteManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLiteManager.xcconfig; sourceTree = "<group>"; };
+		8EE8389C4F73A88BC1313A832B7560C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908BD07926D1D096E0587F8BD3B49E10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CB9762A4C566EADAA2819CF7CCBDA6 /* TGCameraFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFunctions.h; path = TGCameraViewController/Classes/Helper/TGCameraFunctions.h; sourceTree = "<group>"; };
+		9326A10B283EAFBE334915D72A6B714B /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		9349E42C648D21BAE3DFDE3C3D4488F3 /* TGCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGCameraViewController.xcconfig; sourceTree = "<group>"; };
 		935D2C38CA590B53E094BDCB1FB1BAF3 /* Pods-storeApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-storeApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		960A9ABC53BD0948226D437C9716C6B3 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		9B37B0F47317288B871A97C51CEF14FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A072CF49792CCCD02FBE2404E54F3964 /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
-		A1F0D298505D12F22418F96BD2D6DE4F /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		A99FF6D0367AC8FAF28B714B9C517B09 /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
+		93EE3C7247146D37F8E5CAA4B7E01FBA /* TGCameraFlash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFlash.h; path = TGCameraViewController/Classes/Helper/TGCameraFlash.h; sourceTree = "<group>"; };
+		9469DD92B45B1FA013EA369DC5E7A3E3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		9591F06FFA0BF6BF42463EBF33235658 /* sqlite3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sqlite3.xcconfig; sourceTree = "<group>"; };
+		9736B56B015F3BF09D1A847B6D97009F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		97A4E91360FBD37B42E6E056BC795E4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		98E4C8F3E37A5F1D80277BC5D44EEE4E /* SQLite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLite.swift; path = Sources/SQLite.swift; sourceTree = "<group>"; };
+		9DDD2C31DE5D761E1F39E1A174B3FA0F /* SQLiteManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLiteManager-dummy.m"; sourceTree = "<group>"; };
+		A6E798C1CEFC5974D3E48F0289BFF68B /* TGCameraNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraNavigationController.h; path = TGCameraViewController/Classes/Control/TGCameraNavigationController.h; sourceTree = "<group>"; };
+		A7FD797FE8E6AB538C3BC5A4C8C25A25 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		A85511A790FB2F878B1D571F044631B7 /* TGCameraFocusView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFocusView.m; path = TGCameraViewController/Classes/UI/TGCameraFocusView.m; sourceTree = "<group>"; };
+		A9F141FC1BCBD3AF4FE74CCCC11627E7 /* UIImage+CameraFilters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CameraFilters.h"; path = "TGCameraViewController/Classes/Category/UIImage+CameraFilters.h"; sourceTree = "<group>"; };
+		AA8111E7034F7CB6D69C7649818769A1 /* TGPhotoViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGPhotoViewController.xib; path = Base.lproj/TGPhotoViewController.xib; sourceTree = "<group>"; };
+		AAEF339E9333B3F73257B4FFA943AD33 /* TGCameraFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraFunctions.m; path = TGCameraViewController/Classes/Helper/TGCameraFunctions.m; sourceTree = "<group>"; };
 		AC325802EEDACA68FD0953D7A82B81BB /* Pods-storeApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-storeApp.modulemap"; sourceTree = "<group>"; };
 		AC68CCCB187D78575069487CEE2D39E8 /* Pods-storeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-storeApp.release.xcconfig"; sourceTree = "<group>"; };
-		AEF21FE9D010AA7E8064CAB3DDEE4D01 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		AD6D5889DF026232B03243EAA7BB570D /* SQLiteManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLiteManager.framework; path = SQLiteManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB9C07C1BD5670280DAE7471445C869 /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
+		B1BF4FE8EBFF717EDDE1B05B7E01D54C /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
+		B355870EBB948C0B6AEB4626E7DF64BC /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		B4853DAAAC0200E140368D4A3293DB4F /* TGCameraViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TGCameraViewController.xib; path = Base.lproj/TGCameraViewController.xib; sourceTree = "<group>"; };
+		B4B271CB02DB2C794ADDFEEC7BA11BDB /* TGCameraSlideView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideView.m; sourceTree = "<group>"; };
+		B58B87A879AF4640F9129B39EE49DB9A /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		B5904D0F9DB6E2156800B0CE74362DD6 /* TGAssetImageFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGAssetImageFile.m; path = TGCameraViewController/Classes/Model/TGAssetImageFile.m; sourceTree = "<group>"; };
+		B97E63A029DAE7EC45B02C19DF89AD20 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		BAF29A7CDB501BB8E3ECEF95C69EB6A0 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		BD1B8338A6ED9265651DA5631833D0C9 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = "sqlite-amalgamation-3150200/sqlite3ext.h"; sourceTree = "<group>"; };
+		BD6AE1854F54967C8EFFDBFDA91195A2 /* SQLiteManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteManagerError.swift; path = Sources/SQLiteManagerError.swift; sourceTree = "<group>"; };
+		BFEC441F9AAEF335ED3E1233463F13FF /* TGCameraSlideDownView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraSlideDownView.m; path = TGCameraViewController/Classes/UI/TGCameraSlideDownView.m; sourceTree = "<group>"; };
+		C516A562B94FCA6BCCE6D0BC2845994E /* TGCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		C732B6E14E1394B669C1395D06B34F43 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
 		C75D46C532DA5A31EB42525EA03A2E1A /* Pods-storeApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-storeApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD48160E946CF60C44697D4766239A69 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		CEB169F7011C3AE22F10E4FB8BB941D0 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		D46909E67FE468BAA9A40190506BC2DD /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		D6BE911CE5912B092DEC837C348BE5BA /* Pods_storeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_storeApp.framework; path = "Pods-storeApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7DA7696A230A8C5098EDB1708AB122B /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		D9CA9EFBD3188B5D7EB6B99C52233056 /* AlamofireImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.xcconfig; sourceTree = "<group>"; };
-		DE95B8FEC7CAF9BC78333688FE7319F1 /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
-		DF45CF505DC4805961C6AE375E9B4449 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		E39A0238C2D2ED7E1BCF74C638704BCC /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
+		C9C00A7866699617C4FC0C5DFCABD689 /* SQLitePool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLitePool.swift; path = Sources/SQLitePool.swift; sourceTree = "<group>"; };
+		CA1D8FD13067A3AA8AB60A2555D8BAB3 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqlite3.c; path = "sqlite-amalgamation-3150200/sqlite3.c"; sourceTree = "<group>"; };
+		D093E7D48FBF0172FCFD926B619CC2C3 /* sqlite3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = sqlite3.modulemap; sourceTree = "<group>"; };
+		D21CE4F92B4761793D2BA9AFD7622260 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		D27FB082948E7CB84249C699C0A5C7B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29999D0323D0453FE7FE7D32AAC0E47 /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
+		D6B3FD5831FDF82822DE7C97CD0851F1 /* sqlite3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sqlite3.framework; path = sqlite3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DA5588CDAC0818BEE90C2D6521B01F /* SQLiteManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLiteManager-umbrella.h"; sourceTree = "<group>"; };
+		D8E26FE952B28B62CFD6E93CA93305A3 /* TGCameraViewController.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TGCameraViewController.xcassets; path = TGCameraViewController/TGCameraViewController.xcassets; sourceTree = "<group>"; };
+		DE64D873E0E34D02E0ACFF3B17E3BFD1 /* TGCameraFilterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraFilterView.h; path = TGCameraViewController/Classes/UI/TGCameraFilterView.h; sourceTree = "<group>"; };
+		DE661F48911A59B2198A1540398A95E7 /* TGCameraGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TGCameraGridView.m; path = TGCameraViewController/Classes/UI/TGCameraGridView.m; sourceTree = "<group>"; };
+		DE905CDBCD1EF52392B252BF86CB5460 /* TGCameraViewController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TGCameraViewController.bundle; path = TGCameraViewController/Resources/TGCameraViewController.bundle; sourceTree = "<group>"; };
+		DE97B19F333C08DE9498373710EB8C38 /* TGCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		E0722CE863D3EED20F9CBDBB6E8DFF6B /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		E1A22718395E4D3DA22CB3ED40681A3B /* sqlite3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sqlite3-umbrella.h"; sourceTree = "<group>"; };
+		E2FDCE22E7A3BF74EA157C24E540314F /* TGCameraSlideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraSlideView.h; path = TGCameraViewController/Classes/UI/TGCameraSlideView.h; sourceTree = "<group>"; };
+		E35CD5684E520AAE078D0354A1BD1E63 /* TGCameraAuthorizationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraAuthorizationViewController.h; path = TGCameraViewController/Classes/Control/TGCameraAuthorizationViewController.h; sourceTree = "<group>"; };
 		E40D6A4BCD74B5A90DBAE5FE1EF1C457 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBB939DAB70B7498BD951FDFBB552630 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		F0E36A061568443C4892C00390B9395C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		F506873F53797C3F19F6F175128C827D /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
-		F750B175C7230B153936AECFDF9D4B69 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		FBC3003A826F5946919CB186257CC3E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC78F0C59D72E536A49A29DF9551B2FC /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
+		E475093E0E7A0E1DA99D2C92366D774C /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		E5CFD8413F5CE587B79C81DA9BD9119D /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		E9551A1368B1DA9950C5D8551DA08ECB /* TGCameraViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TGCameraViewController.h; path = TGCameraViewController/Classes/Control/TGCameraViewController.h; sourceTree = "<group>"; };
+		E9EC890B9E9A25E7772BAC3A857A26EC /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		EF68FF08ED0A4FB022E23F577B5102BF /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
+		F09C9992BE18207AEAABB9B3E6B2EF22 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		F28D70CC5EE5B5955D1C65D5D9659664 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		F6E71A5858C091A57231AC995FD3EF83 /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
+		FB6577DD1C573D3CF9374715AFB6437C /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = "sqlite-amalgamation-3150200/sqlite3.h"; sourceTree = "<group>"; };
+		FC7D084DAA300DE88C63A58C8540A978 /* SQLiteManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteManager.swift; path = Sources/SQLiteManager.swift; sourceTree = "<group>"; };
 		FE6945D8ED0064B8ADE69E904D467A77 /* Pods-storeApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-storeApp-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6F73150BC7C1DBD86D410615FA594D5F /* Frameworks */ = {
+		144A4ED49B2533A4A85A8E9252ED71E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				536C9F68734E4E561CDF38FBDE69FAE1 /* Foundation.framework in Frameworks */,
+				D1D294EB3FD746EA65CCDE4228F2FA62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27809C68F40878E96FF7382411636285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3FD508D385CA641FE6B6E0DC59D419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E143A57D34A1A8E434FCD8470AB92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0BA3C7769FB561375A47342D4BEC8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D677EACC9B3EA4605E8B5F7403A1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E790C1F5672682D0E143755AB9FD397 /* AssetsLibrary.framework in Frameworks */,
+				669316AAD33130433A6BB19065D98284 /* AVFoundation.framework in Frameworks */,
+				A01CB344AA157F8C3D4C47590675ED28 /* CoreImage.framework in Frameworks */,
+				A2FC70C093A58271F6DE74EAAD03A375 /* Foundation.framework in Frameworks */,
+				FC03B7DFE923E31F4865B9016D016A1A /* MobileCoreServices.framework in Frameworks */,
+				FB5BDA60A5A0DD3744F043486C56898B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643C5CCD222833D7D654426B38A1B839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDEDFBCE6DBB3849CC5E1376838B50A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +421,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA4948BD39E74149C573AC27AD86AF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA6D3551B75FE1090F3AAE363994F45 /* Foundation.framework in Frameworks */,
+				275536C1A181158061569B5ECD4314FF /* sqlite3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155BD3242C72B9F88F553541B4C33991 /* AlamofireImage */ = {
+			isa = PBXGroup;
+			children = (
+				AFB9C07C1BD5670280DAE7471445C869 /* AFIError.swift */,
+				137904EF1D0A32881F00F8D380E00268 /* Image.swift */,
+				055A2786637BDBC99B7E40AC4E02461A /* ImageCache.swift */,
+				7C2128B2054A91ECE72B871BFF8BA2FF /* ImageDownloader.swift */,
+				F6E71A5858C091A57231AC995FD3EF83 /* ImageFilter.swift */,
+				D29999D0323D0453FE7FE7D32AAC0E47 /* Request+AlamofireImage.swift */,
+				B1BF4FE8EBFF717EDDE1B05B7E01D54C /* UIButton+AlamofireImage.swift */,
+				4D6B7AB044BC6446095A4DCE26D47B7C /* UIImage+AlamofireImage.swift */,
+				3892EE33E88ACE3214814191B7BC400C /* UIImageView+AlamofireImage.swift */,
+				4263A02E40D2340C6C749BBB01350B39 /* Support Files */,
+			);
+			name = AlamofireImage;
+			path = AlamofireImage;
+			sourceTree = "<group>";
+		};
+		1863C4A798A23C3B96A494A317CA6584 /* TGCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E0F26FB2C8BD63D9BC9BBE51A29DC82 /* TGAlbum.h */,
+				4C862666F38583E56A483930C4C18110 /* TGAlbum.m */,
+				66A0AE61E87BD83A0BAAE64E580F1B84 /* TGAssetImageFile.h */,
+				B5904D0F9DB6E2156800B0CE74362DD6 /* TGAssetImageFile.m */,
+				2E57C3313BC734172DB9EBBB37321351 /* TGAssetsLibrary.h */,
+				38943F4F06F9155A948403BEC76CADC6 /* TGAssetsLibrary.m */,
+				5CB46FD6C119DB8CA9F5F57E276C3431 /* TGCamera.h */,
+				612D51333852DD4B242C670F20DF545C /* TGCamera.m */,
+				E35CD5684E520AAE078D0354A1BD1E63 /* TGCameraAuthorizationViewController.h */,
+				26A2F8F2440EABC955C59A6D81C4F2EA /* TGCameraAuthorizationViewController.m */,
+				66291FF06B80CAE015E7E6E03DCA982D /* TGCameraColor.h */,
+				716DF837B381F3DB83F337C4899B69FE /* TGCameraColor.m */,
+				DE64D873E0E34D02E0ACFF3B17E3BFD1 /* TGCameraFilterView.h */,
+				4A5EADBABB7D567193C23A5F7BC2CACC /* TGCameraFilterView.m */,
+				93EE3C7247146D37F8E5CAA4B7E01FBA /* TGCameraFlash.h */,
+				1EEABC7ACC8578A0F638FAE0FFFD0753 /* TGCameraFlash.m */,
+				3E6B007A0503B236236ED13A429C4BB5 /* TGCameraFocus.h */,
+				12132FC1C8E9AC2539401F01AFCBDD59 /* TGCameraFocus.m */,
+				5648685D9B3C95260285F6907556C33A /* TGCameraFocusView.h */,
+				A85511A790FB2F878B1D571F044631B7 /* TGCameraFocusView.m */,
+				92CB9762A4C566EADAA2819CF7CCBDA6 /* TGCameraFunctions.h */,
+				AAEF339E9333B3F73257B4FFA943AD33 /* TGCameraFunctions.m */,
+				6F36D5D23EFB4D1DC8EDCF94D19EF98F /* TGCameraGrid.h */,
+				3FC3396842FE1CAD73CEF5BDC55F437D /* TGCameraGrid.m */,
+				8017B6846AD8C85D51837D582C8D0169 /* TGCameraGridView.h */,
+				DE661F48911A59B2198A1540398A95E7 /* TGCameraGridView.m */,
+				A6E798C1CEFC5974D3E48F0289BFF68B /* TGCameraNavigationController.h */,
+				45FB1915674DE9B9AB3AA7D7AB77A846 /* TGCameraNavigationController.m */,
+				5C50AF9780E145BB56C4743950165E46 /* TGCameraShot.h */,
+				3D11DF0B4A8A8F1FBF29ED64FC7459A3 /* TGCameraShot.m */,
+				17B87BE30E63E426725AD96E5F1ADD2F /* TGCameraSlideDownView.h */,
+				BFEC441F9AAEF335ED3E1233463F13FF /* TGCameraSlideDownView.m */,
+				0C136C5F5AFB27D45CCC51FE3C010175 /* TGCameraSlideUpView.h */,
+				6806584AA366451A0AA30A5DA1FD459F /* TGCameraSlideUpView.m */,
+				E2FDCE22E7A3BF74EA157C24E540314F /* TGCameraSlideView.h */,
+				B4B271CB02DB2C794ADDFEEC7BA11BDB /* TGCameraSlideView.m */,
+				7C5BA5DB124CEA0E9F0985CF90158CC6 /* TGCameraToggle.h */,
+				836B84A78E25AEE0092596676DF75D05 /* TGCameraToggle.m */,
+				E9551A1368B1DA9950C5D8551DA08ECB /* TGCameraViewController.h */,
+				50D1F0938B00A3CB8A8DA71B7BC993EA /* TGCameraViewController.m */,
+				1BB33CAF1C5AD8163CDDDF22835EC516 /* TGPhotoViewController.h */,
+				68A9FD3CCE6655B79D9252038FBC3D8D /* TGPhotoViewController.m */,
+				02D287F8F83845A225524ED59EE0B416 /* TGTintedButton.h */,
+				0441FCC25344D48FC9EA16E981CF49AA /* TGTintedButton.m */,
+				2CCBE43D2CF8255D0B5644D0A2DD0065 /* TGTintedLabel.h */,
+				70CDD6CA1542B1D11198A9406C0DEBF4 /* TGTintedLabel.m */,
+				A9F141FC1BCBD3AF4FE74CCCC11627E7 /* UIImage+CameraFilters.h */,
+				7CDA6309F30DF1BE2FD8560528EB8A3A /* UIImage+CameraFilters.m */,
+				47ABA08B7AF8B8ADE0FF55ABFDA086E6 /* Resources */,
+				1E46336688D7FA3C73AF17B71B86D9C5 /* Support Files */,
+			);
+			name = TGCameraViewController;
+			path = TGCameraViewController;
+			sourceTree = "<group>";
+		};
+		1E46336688D7FA3C73AF17B71B86D9C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D27FB082948E7CB84249C699C0A5C7B6 /* Info.plist */,
+				1956AE8341FBD5668BF778CCD0B4129B /* TGCameraViewController.modulemap */,
+				9349E42C648D21BAE3DFDE3C3D4488F3 /* TGCameraViewController.xcconfig */,
+				3AD1A022F6F948C708EB1495D8E15675 /* TGCameraViewController-dummy.m */,
+				DE97B19F333C08DE9498373710EB8C38 /* TGCameraViewController-prefix.pch */,
+				C516A562B94FCA6BCCE6D0BC2845994E /* TGCameraViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TGCameraViewController";
+			sourceTree = "<group>";
+		};
 		202EA950A2A8220743E1556EA6BCBE84 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,123 +531,244 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		59B91F212518421F271EBA85D5530651 /* Frameworks */ = {
+		271262B5E7BDBDA27619909A89490DA9 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */,
-				7EB15E2C7EC8DD0E4C409FA3E5AC30A1 /* iOS */,
+				CA1D8FD13067A3AA8AB60A2555D8BAB3 /* sqlite3.c */,
+				FB6577DD1C573D3CF9374715AFB6437C /* sqlite3.h */,
+				BD1B8338A6ED9265651DA5631833D0C9 /* sqlite3ext.h */,
 			);
-			name = Frameworks;
+			name = common;
 			sourceTree = "<group>";
 		};
-		6D9BBFEAF2B2CDBC0A3CD05BAD1A9A82 /* Support Files */ = {
+		360F3FC5201D2189819ACAD6C618F9A8 /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				DE95B8FEC7CAF9BC78333688FE7319F1 /* AlamofireImage.modulemap */,
-				D9CA9EFBD3188B5D7EB6B99C52233056 /* AlamofireImage.xcconfig */,
-				A072CF49792CCCD02FBE2404E54F3964 /* AlamofireImage-dummy.m */,
-				00273894B2CACADC70DE7C63D9DE900F /* AlamofireImage-prefix.pch */,
-				2B91CDE9C60D5C92C6A2EE8754EB1042 /* AlamofireImage-umbrella.h */,
-				9B37B0F47317288B871A97C51CEF14FF /* Info.plist */,
+				E475093E0E7A0E1DA99D2C92366D774C /* SCLAlertView.swift */,
+				8104DCDE134CC9E6BC411453AE0FCDEA /* SCLExtensions.swift */,
+				8FA44E653CFDF4C3BE87B890B1E32381 /* Support Files */,
+			);
+			name = SCLAlertView;
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		4263A02E40D2340C6C749BBB01350B39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D04713F0CE0AF15FBF2C6582BAAC68A /* AlamofireImage.modulemap */,
+				0018113549E37DE1F3A4BAD0C384A507 /* AlamofireImage.xcconfig */,
+				EF68FF08ED0A4FB022E23F577B5102BF /* AlamofireImage-dummy.m */,
+				6006A4A61DB9CEE203F18FB8E34792DB /* AlamofireImage-prefix.pch */,
+				702E0A87EA3EE10E0397BB14AD83DB59 /* AlamofireImage-umbrella.h */,
+				05E15B643C1369E31888A1D89E4BE0AB /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AlamofireImage";
 			sourceTree = "<group>";
 		};
-		6FF3CE06F7D89F16588F3A74B93F1B66 /* Pods */ = {
+		45C23FD85841C8F0882F559281B3557C /* SQLiteManager */ = {
 			isa = PBXGroup;
 			children = (
-				D3EFF33CB02313904714763B0DD78DDD /* Alamofire */,
-				D5657C77624373FB43928E616379C888 /* AlamofireImage */,
+				0B142F4EB4A6B00A867A84702D820160 /* HelperFunctions.swift */,
+				98E4C8F3E37A5F1D80277BC5D44EEE4E /* SQLite.swift */,
+				FC7D084DAA300DE88C63A58C8540A978 /* SQLiteManager.swift */,
+				BD6AE1854F54967C8EFFDBFDA91195A2 /* SQLiteManagerError.swift */,
+				C9C00A7866699617C4FC0C5DFCABD689 /* SQLitePool.swift */,
+				7D7B7C04ECA499A952BB1C88B3B01146 /* Support Files */,
+			);
+			name = SQLiteManager;
+			path = SQLiteManager;
+			sourceTree = "<group>";
+		};
+		47ABA08B7AF8B8ADE0FF55ABFDA086E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				639CEF86E900812D31521FD5D5F0CCD3 /* TGCameraAuthorizationViewController.xib */,
+				DE905CDBCD1EF52392B252BF86CB5460 /* TGCameraViewController.bundle */,
+				D8E26FE952B28B62CFD6E93CA93305A3 /* TGCameraViewController.xcassets */,
+				C5039DD1A1AD34AFDEC03586666EF4DE /* TGCameraViewController.xib */,
+				61E3EDD743DCBFC37B78283CBF2EDDC5 /* TGPhotoViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47B02F557BB188D71FE7270B849727D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				838708802DEE02A6F205CE82D3A0B205 /* Alamofire */,
+				155BD3242C72B9F88F553541B4C33991 /* AlamofireImage */,
+				360F3FC5201D2189819ACAD6C618F9A8 /* SCLAlertView */,
+				BAB927038423772CEFCF13BF6F57B7C5 /* sqlite3 */,
+				45C23FD85841C8F0882F559281B3557C /* SQLiteManager */,
+				75CCCDE908E2A966490798B8339A8B81 /* SwiftyJSON */,
+				1863C4A798A23C3B96A494A317CA6584 /* TGCameraViewController */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		75CCCDE908E2A966490798B8339A8B81 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD797FE8E6AB538C3BC5A4C8C25A25 /* SwiftyJSON.swift */,
+				ECF9D6C517479D38851627B3C827F05D /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7D7B7C04ECA499A952BB1C88B3B01146 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60F7D89A9DCEC18ED0E041F26F554E8E /* Info.plist */,
+				8A1FA8768D14CCBE3CB725EA344623B1 /* SQLiteManager.modulemap */,
+				8E62CF005D78A3E3F6778D40AA532193 /* SQLiteManager.xcconfig */,
+				9DDD2C31DE5D761E1F39E1A174B3FA0F /* SQLiteManager-dummy.m */,
+				376BB59BF846BD03A0C02C3C7EF4356B /* SQLiteManager-prefix.pch */,
+				D6DA5588CDAC0818BEE90C2D6521B01F /* SQLiteManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLiteManager";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				59B91F212518421F271EBA85D5530651 /* Frameworks */,
-				6FF3CE06F7D89F16588F3A74B93F1B66 /* Pods */,
-				8EB8CF638FEEDBAFCA7A6FB90FD493CC /* Products */,
+				86215F27B86947E0FF0D6EE8750D436C /* Frameworks */,
+				47B02F557BB188D71FE7270B849727D9 /* Pods */,
+				AB283D8280B2F82DD952B9D2C82B1F1B /* Products */,
 				202EA950A2A8220743E1556EA6BCBE84 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EB15E2C7EC8DD0E4C409FA3E5AC30A1 /* iOS */ = {
+		838708802DEE02A6F205CE82D3A0B205 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				3F9B2E024A80A62FE090406312870D33 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8EB8CF638FEEDBAFCA7A6FB90FD493CC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8AEA17C19D3C87BDCD8C1B077ABADA03 /* Alamofire.framework */,
-				3B1944BA9F8A9E3207ABC4175503DA0F /* AlamofireImage.framework */,
-				D6BE911CE5912B092DEC837C348BE5BA /* Pods_storeApp.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BA38DA63E92F45B63F1442D6D11ADBEA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2D6F897E8718BCA0F1B7F123EBBBEBFF /* Alamofire.modulemap */,
-				960A9ABC53BD0948226D437C9716C6B3 /* Alamofire.xcconfig */,
-				22FD4D2047EEAE80AEBCB1594D341FE8 /* Alamofire-dummy.m */,
-				29D61A3CF14C9F8A3215CACDE1CD26EE /* Alamofire-prefix.pch */,
-				319D0D5C0A449FE881C76727B80F34B3 /* Alamofire-umbrella.h */,
-				FBC3003A826F5946919CB186257CC3E8 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		D3EFF33CB02313904714763B0DD78DDD /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				D7DA7696A230A8C5098EDB1708AB122B /* AFError.swift */,
-				6FBD180178B74D26C52790871D11EA82 /* Alamofire.swift */,
-				D46909E67FE468BAA9A40190506BC2DD /* DispatchQueue+Alamofire.swift */,
-				7A337CF61ED3C76DCDB6CABF7DDA57F4 /* MultipartFormData.swift */,
-				F750B175C7230B153936AECFDF9D4B69 /* NetworkReachabilityManager.swift */,
-				CD48160E946CF60C44697D4766239A69 /* Notifications.swift */,
-				F0E36A061568443C4892C00390B9395C /* ParameterEncoding.swift */,
-				017C040C3370B9A89F31C2BC19AF5D1C /* Request.swift */,
-				AEF21FE9D010AA7E8064CAB3DDEE4D01 /* Response.swift */,
-				5F1F2DAC9C123E8BF5B8BBA7C3F17E4E /* ResponseSerialization.swift */,
-				EBB939DAB70B7498BD951FDFBB552630 /* Result.swift */,
-				5D61BFE0C2AB6D5B144D90851B0FBBDA /* ServerTrustPolicy.swift */,
-				CEB169F7011C3AE22F10E4FB8BB941D0 /* SessionDelegate.swift */,
-				A1F0D298505D12F22418F96BD2D6DE4F /* SessionManager.swift */,
-				DF45CF505DC4805961C6AE375E9B4449 /* TaskDelegate.swift */,
-				75A86E4845F495D22067D31DD2444516 /* Timeline.swift */,
-				445B347EC7347C5B752DAEF7EFC85B3D /* Validation.swift */,
-				BA38DA63E92F45B63F1442D6D11ADBEA /* Support Files */,
+				D21CE4F92B4761793D2BA9AFD7622260 /* AFError.swift */,
+				3181ADA29A0A41FB4BBF8344AC36102A /* Alamofire.swift */,
+				837D238A9DBE1333E61DEBCE0E3F8EAB /* DispatchQueue+Alamofire.swift */,
+				63724DEDBF0DDD5468DA0EB81B11E231 /* MultipartFormData.swift */,
+				7CE94D7F552417170AB28B04882BBEE9 /* NetworkReachabilityManager.swift */,
+				BAF29A7CDB501BB8E3ECEF95C69EB6A0 /* Notifications.swift */,
+				3475DEB9F76401685B7BDA23B6D7A7EB /* ParameterEncoding.swift */,
+				9326A10B283EAFBE334915D72A6B714B /* Request.swift */,
+				6B4D999D074DBCBB748EDB34F9EDB3CC /* Response.swift */,
+				49100AD1DA8C79ECBA930466D7F491BC /* ResponseSerialization.swift */,
+				3E4D05B9BDE53E51434D40F4765D165F /* Result.swift */,
+				E0722CE863D3EED20F9CBDBB6E8DFF6B /* ServerTrustPolicy.swift */,
+				81742B8DCA2004508259B7E9C9C29604 /* SessionDelegate.swift */,
+				9469DD92B45B1FA013EA369DC5E7A3E3 /* SessionManager.swift */,
+				E9EC890B9E9A25E7772BAC3A857A26EC /* TaskDelegate.swift */,
+				B355870EBB948C0B6AEB4626E7DF64BC /* Timeline.swift */,
+				7C5B50E967C5A132D94762E167D3D2CB /* Validation.swift */,
+				ADC010C3B92438DCE447DDBA57A6B5A2 /* Support Files */,
 			);
 			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		D5657C77624373FB43928E616379C888 /* AlamofireImage */ = {
+		86215F27B86947E0FF0D6EE8750D436C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A99FF6D0367AC8FAF28B714B9C517B09 /* AFIError.swift */,
-				8303DFF4F0412C06016FB01FE8A0AE2C /* Image.swift */,
-				7F1B46CA3DB56C3D2E677654A1304B15 /* ImageCache.swift */,
-				2D6EFA1B14F4F2AC1C907F7D8D75E2A2 /* ImageDownloader.swift */,
-				FC78F0C59D72E536A49A29DF9551B2FC /* ImageFilter.swift */,
-				E39A0238C2D2ED7E1BCF74C638704BCC /* Request+AlamofireImage.swift */,
-				F506873F53797C3F19F6F175128C827D /* UIButton+AlamofireImage.swift */,
-				40925083A89DB524274043A5544403F4 /* UIImage+AlamofireImage.swift */,
-				1B8F864B86D55C1EBA65BB1005488236 /* UIImageView+AlamofireImage.swift */,
-				6D9BBFEAF2B2CDBC0A3CD05BAD1A9A82 /* Support Files */,
+				5B114302897329D98DCFCCE862BCA1D2 /* Alamofire.framework */,
+				588643790CFC93EB5C4A2D82B712F286 /* sqlite3.framework */,
+				9A4AABF8739F3D891092BA6A762536D3 /* iOS */,
 			);
-			name = AlamofireImage;
-			path = AlamofireImage;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA44E653CFDF4C3BE87B890B1E32381 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EE8389C4F73A88BC1313A832B7560C3 /* Info.plist */,
+				8D8B311337B21A769624A54D3D091C61 /* SCLAlertView.modulemap */,
+				1E910F34C0B2E5CF6D1EF794A35B00A4 /* SCLAlertView.xcconfig */,
+				5F189010E667FFD130650B46B87700B7 /* SCLAlertView-dummy.m */,
+				C732B6E14E1394B669C1395D06B34F43 /* SCLAlertView-prefix.pch */,
+				8A540B12D579E9AA8A309FDC618A1D05 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		9601419F0B1168319FC4FDA344BE8AA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				908BD07926D1D096E0587F8BD3B49E10 /* Info.plist */,
+				D093E7D48FBF0172FCFD926B619CC2C3 /* sqlite3.modulemap */,
+				9591F06FFA0BF6BF42463EBF33235658 /* sqlite3.xcconfig */,
+				4D2343920600118945D4B967EE79EC2B /* sqlite3-dummy.m */,
+				392DF2FA14BC6C3A917F3C851E518B06 /* sqlite3-prefix.pch */,
+				E1A22718395E4D3DA22CB3ED40681A3B /* sqlite3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/sqlite3";
+			sourceTree = "<group>";
+		};
+		9A4AABF8739F3D891092BA6A762536D3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				815D4CB706625A00142C4091FC50C140 /* AssetsLibrary.framework */,
+				33D106003389A42DE6B9E85CC2E02C2C /* AVFoundation.framework */,
+				5C0F56B1D47CBBE8B2D62B8E048D75E4 /* CoreImage.framework */,
+				9881DF2A072FA8708C118D0DD6066883 /* Foundation.framework */,
+				4EA7590C8CA3B807F9F0ECD500EBC91D /* MobileCoreServices.framework */,
+				53285292E2E2B0C4DA2491F9382E1F47 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AB283D8280B2F82DD952B9D2C82B1F1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C0E1370E4D521C80BAC22ACAAC8C5F /* Alamofire.framework */,
+				0596D17F2C65191C431ED8703B8A0D0F /* AlamofireImage.framework */,
+				49303EC74BDBE927E654E46695A96A28 /* Pods_storeApp.framework */,
+				53FDFFE577C1E2E9F1ECBF2A405C243E /* SCLAlertView.framework */,
+				D6B3FD5831FDF82822DE7C97CD0851F1 /* sqlite3.framework */,
+				AD6D5889DF026232B03243EAA7BB570D /* SQLiteManager.framework */,
+				8479561E15DCAEB9CA824A1A6D015271 /* SwiftyJSON.framework */,
+				85FBF01D4EA467234CE69AF2647899F0 /* TGCameraViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC010C3B92438DCE447DDBA57A6B5A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09C9992BE18207AEAABB9B3E6B2EF22 /* Alamofire.modulemap */,
+				B58B87A879AF4640F9129B39EE49DB9A /* Alamofire.xcconfig */,
+				1720FD521AE8DAF63235C5D40B65C987 /* Alamofire-dummy.m */,
+				3BDFE982987BFAE76B6984A86AF4AF35 /* Alamofire-prefix.pch */,
+				9736B56B015F3BF09D1A847B6D97009F /* Alamofire-umbrella.h */,
+				97A4E91360FBD37B42E6E056BC795E4C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		BAB927038423772CEFCF13BF6F57B7C5 /* sqlite3 */ = {
+			isa = PBXGroup;
+			children = (
+				271262B5E7BDBDA27619909A89490DA9 /* common */,
+				9601419F0B1168319FC4FDA344BE8AA0 /* Support Files */,
+			);
+			name = sqlite3;
+			path = sqlite3;
+			sourceTree = "<group>";
+		};
+		ECF9D6C517479D38851627B3C827F05D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4899BD26CC46D84E7824CD94B46E60A6 /* Info.plist */,
+				8ACBF32D69A6202095E90A084E0E89E9 /* SwiftyJSON.modulemap */,
+				E5CFD8413F5CE587B79C81DA9BD9119D /* SwiftyJSON.xcconfig */,
+				03BF02F1F6DE22C4BE2F05B4129BCB82 /* SwiftyJSON-dummy.m */,
+				F28D70CC5EE5B5955D1C65D5D9659664 /* SwiftyJSON-prefix.pch */,
+				B97E63A029DAE7EC45B02C19DF89AD20 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
 		F1EEAAED29053A75A7C2C182816AE20F /* Pods-storeApp */ = {
@@ -303,6 +792,72 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		06C496D31E137A339D08978ED8B4A39E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3B1232041582D94C640A9E0392F17E /* Pods-storeApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DB780F742C0A749B7D773BCF4BE43E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C941FE8AD24594D07754CCA119C6B5C /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1B39FC6D51236DD8D843EA5565A33F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7EB6992D5FD481ADCA62CF5BD22640 /* sqlite3-umbrella.h in Headers */,
+				610229D4960A5DAE3CFE2E18314AFA0C /* sqlite3.h in Headers */,
+				0EAC22378CEE7704F529C168EBCCF580 /* sqlite3ext.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E5AEAC3A9A6AF477BB7A81E3480FBEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145BD4D548FC02F35DD922BB7C562615 /* TGAlbum.h in Headers */,
+				6DA29AA61D99086EF15606F749213AFB /* TGAssetImageFile.h in Headers */,
+				9587F72A6C61E51BFB9F56D9EAE7DF5E /* TGAssetsLibrary.h in Headers */,
+				D5517BEB003CCC790CAD7E553A5AD491 /* TGCamera.h in Headers */,
+				E667EA568C9EED8F8F5EB42C23DB135D /* TGCameraAuthorizationViewController.h in Headers */,
+				099E89A90F6877C7E156FD6EF6EEB444 /* TGCameraColor.h in Headers */,
+				CA806A2043CB653C7E72DBECB1A15F79 /* TGCameraFilterView.h in Headers */,
+				C7014C815F685188DD97C33E50CA7E89 /* TGCameraFlash.h in Headers */,
+				5C2843B174AB204E11A2AECEACCB7B11 /* TGCameraFocus.h in Headers */,
+				2FA5A6DE8B47BBE3360746A376E2EFDF /* TGCameraFocusView.h in Headers */,
+				9EF0546902FB30D3A48AD3C3387FB554 /* TGCameraFunctions.h in Headers */,
+				CB6E0A93AC06803A561A19A6753CA998 /* TGCameraGrid.h in Headers */,
+				B5B342E600EDF4B8320876A2ED6E8191 /* TGCameraGridView.h in Headers */,
+				D0FD921D33112DF6B2D8CD0FB588F233 /* TGCameraNavigationController.h in Headers */,
+				2D0FFF17420606C053A021D184931482 /* TGCameraShot.h in Headers */,
+				0EA232B27173A0E5496F0DA441CA79ED /* TGCameraSlideDownView.h in Headers */,
+				D485EF2A395E37E3B9778B294BCCE549 /* TGCameraSlideUpView.h in Headers */,
+				6FFBFCF9E3281ADB4E8F882D8BC3923D /* TGCameraSlideView.h in Headers */,
+				13ACF95AF2D1C923BEA8BB96A66AA1CB /* TGCameraToggle.h in Headers */,
+				2F4CCD3B049DE0730E5B7FD24E3070A5 /* TGCameraViewController-umbrella.h in Headers */,
+				32D3CF354155BF3398AC2C8503886C74 /* TGCameraViewController.h in Headers */,
+				1BF62FB879E98B12818EAFBF65C6ACCB /* TGPhotoViewController.h in Headers */,
+				39ECCB424D27DD1FED0E472C56A3A858 /* TGTintedButton.h in Headers */,
+				1163F2E34EF0CF6D51642734CB25B616 /* TGTintedLabel.h in Headers */,
+				248691DDAEEA27663D23B5C7ADF5FBEB /* UIImage+CameraFilters.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5EB24624DA4B1EC44034D7043E1353 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D6ADB95E4CDE8FC30AF534D6FFDB35 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,11 +866,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E67CB69B8F718B7B2EED57D70C583F85 /* Headers */ = {
+		E18F75364CEBE90F9BC44A531D028A53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C0EB302F2A6F7A49C5585089F4966AC /* Pods-storeApp-umbrella.h in Headers */,
+				93D53616336DA232349D4B6F1A52B5D4 /* SQLiteManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +885,99 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		04C2FA9E7C7577CAA2ABEA284FFCC0D5 /* Pods-storeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D26DE1AC4B49EDC39DF1691C53DD7E /* Build configuration list for PBXNativeTarget "Pods-storeApp" */;
+			buildPhases = (
+				8A4B77A9BC915DDE9D0FF5C7969B8F22 /* Sources */,
+				643C5CCD222833D7D654426B38A1B839 /* Frameworks */,
+				06C496D31E137A339D08978ED8B4A39E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF2CE00A4C67C6E780E5F8FBB78BCB9 /* PBXTargetDependency */,
+				1BDD83D3FB21CFFF370B34D0B076A52F /* PBXTargetDependency */,
+				829D23F375C476DD9646727D2C00AE04 /* PBXTargetDependency */,
+				54E6658B47AB890FCC795D8E745DC732 /* PBXTargetDependency */,
+				3D317F3931B3ADB59F2263A09EC9C856 /* PBXTargetDependency */,
+				6AFA8BC341A021FC1D905594B4FFCDD0 /* PBXTargetDependency */,
+				8C3958EE9010072F18D9B53E1AA6F409 /* PBXTargetDependency */,
+			);
+			name = "Pods-storeApp";
+			productName = "Pods-storeApp";
+			productReference = 49303EC74BDBE927E654E46695A96A28 /* Pods_storeApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		11CDF88B08B67C11DBEAA9B2AA2D9A20 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44270F9BB6C07FFC8DB22188A2DA476 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				FD207F972D5D12268EDBD16A83CBB919 /* Sources */,
+				27809C68F40878E96FF7382411636285 /* Frameworks */,
+				8D5EB24624DA4B1EC44034D7043E1353 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 8479561E15DCAEB9CA824A1A6D015271 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38D459225D9F8FFE3FFBA935D03C10FD /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F853E94D41B664DA769CFF1AF0BE1D8 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				EBF63925EC603B95A3375829CE553FC5 /* Sources */,
+				144A4ED49B2533A4A85A8E9252ED71E7 /* Frameworks */,
+				17DB780F742C0A749B7D773BCF4BE43E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 53FDFFE577C1E2E9F1ECBF2A405C243E /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F62B389F421DAA0DE439121B7306F3A /* sqlite3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F383C449E76A17AE6FCD28535936FA5A /* Build configuration list for PBXNativeTarget "sqlite3" */;
+			buildPhases = (
+				DAA919F55F462AB5B953D709B4A14F8D /* Sources */,
+				29E143A57D34A1A8E434FCD8470AB92F /* Frameworks */,
+				1F1B39FC6D51236DD8D843EA5565A33F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqlite3;
+			productName = sqlite3;
+			productReference = D6B3FD5831FDF82822DE7C97CD0851F1 /* sqlite3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5229021369C8A674461C5BB6839A5BA7 /* TGCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD3AC0A54BEC180A922D6E3F10A642F /* Build configuration list for PBXNativeTarget "TGCameraViewController" */;
+			buildPhases = (
+				529131060662AFFE52DC0CFBBFC3A721 /* Sources */,
+				32D677EACC9B3EA4605E8B5F7403A1B1 /* Frameworks */,
+				3E5AEAC3A9A6AF477BB7A81E3480FBEC /* Headers */,
+				55F75D039A0DDD6A752684A9BC2EEE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGCameraViewController;
+			productName = TGCameraViewController;
+			productReference = 85FBF01D4EA467234CE69AF2647899F0 /* TGCameraViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
@@ -344,26 +992,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 8AEA17C19D3C87BDCD8C1B077ABADA03 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		988985D8A24021A2CAE44DD9FC0D260F /* Pods-storeApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 999E9950FFD2B28905BAC1E7AB7B599F /* Build configuration list for PBXNativeTarget "Pods-storeApp" */;
-			buildPhases = (
-				44C2AACEEF6C4F33A69E09FF1D48B816 /* Sources */,
-				6F73150BC7C1DBD86D410615FA594D5F /* Frameworks */,
-				E67CB69B8F718B7B2EED57D70C583F85 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C29356F29059DA0647EDD7959A82807C /* PBXTargetDependency */,
-				3205D294B5317E45C195170EADF1FFBC /* PBXTargetDependency */,
-			);
-			name = "Pods-storeApp";
-			productName = "Pods-storeApp";
-			productReference = D6BE911CE5912B092DEC837C348BE5BA /* Pods_storeApp.framework */;
+			productReference = 80C0E1370E4D521C80BAC22ACAAC8C5F /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */ = {
@@ -381,7 +1010,25 @@
 			);
 			name = AlamofireImage;
 			productName = AlamofireImage;
-			productReference = 3B1944BA9F8A9E3207ABC4175503DA0F /* AlamofireImage.framework */;
+			productReference = 0596D17F2C65191C431ED8703B8A0D0F /* AlamofireImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E44B825FC6B8D13869CC28A647DF1715 /* SQLiteManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7303ED52BAC4AAFADD7C927CDAD9A248 /* Build configuration list for PBXNativeTarget "SQLiteManager" */;
+			buildPhases = (
+				B10FA423FEED33B996A6A1DE9EE9285E /* Sources */,
+				CA4948BD39E74149C573AC27AD86AF40 /* Frameworks */,
+				E18F75364CEBE90F9BC44A531D028A53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16FB2AD75F63111808E5BB78A891A8AE /* PBXTargetDependency */,
+			);
+			name = SQLiteManager;
+			productName = SQLiteManager;
+			productReference = AD6D5889DF026232B03243EAA7BB570D /* SQLiteManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -401,16 +1048,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8EB8CF638FEEDBAFCA7A6FB90FD493CC /* Products */;
+			productRefGroup = AB283D8280B2F82DD952B9D2C82B1F1B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */,
-				988985D8A24021A2CAE44DD9FC0D260F /* Pods-storeApp */,
+				04C2FA9E7C7577CAA2ABEA284FFCC0D5 /* Pods-storeApp */,
+				38D459225D9F8FFE3FFBA935D03C10FD /* SCLAlertView */,
+				4F62B389F421DAA0DE439121B7306F3A /* sqlite3 */,
+				E44B825FC6B8D13869CC28A647DF1715 /* SQLiteManager */,
+				11CDF88B08B67C11DBEAA9B2AA2D9A20 /* SwiftyJSON */,
+				5229021369C8A674461C5BB6839A5BA7 /* TGCameraViewController */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F75D039A0DDD6A752684A9BC2EEE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECFBA14FF655E1A6407A9F1E93963AB /* TGCameraAuthorizationViewController.xib in Resources */,
+				94B3EBD560CF7C32B726B55C30C8E072 /* TGCameraViewController.bundle in Resources */,
+				F56382C580BEB3D76533DAD69740011B /* TGCameraViewController.xcassets in Resources */,
+				6DD839A55424A4642E64025FBC2E1589 /* TGCameraViewController.xib in Resources */,
+				874E01DF153D4A6A61B586C6CC65B715 /* TGPhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32B9974868188C4803318E36329C87FE /* Sources */ = {
@@ -438,11 +1105,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44C2AACEEF6C4F33A69E09FF1D48B816 /* Sources */ = {
+		529131060662AFFE52DC0CFBBFC3A721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C7D9228C3C57AB09DB4B4593306BAB9 /* Pods-storeApp-dummy.m in Sources */,
+				1C9289E7D83B3873F0DA023CFD4F645F /* TGAlbum.m in Sources */,
+				A4F1F44D73ECE13051D0DE205E22B983 /* TGAssetImageFile.m in Sources */,
+				A4CE4EF7AAC4A5842AA4BF66C06FF398 /* TGAssetsLibrary.m in Sources */,
+				56BFFDEDF7CE920210B19155F8BA6387 /* TGCamera.m in Sources */,
+				8D2B4CCAD9F7F3DF0EE12C9118D7A8EF /* TGCameraAuthorizationViewController.m in Sources */,
+				FAC7A2C0979FB5FB008EC4A4DD6F77B0 /* TGCameraColor.m in Sources */,
+				3A6A9A0792BAF2AFEB43CFB7D2255153 /* TGCameraFilterView.m in Sources */,
+				CF6076D49F8DE38D940AC065BFE1EB6D /* TGCameraFlash.m in Sources */,
+				EFFA0893A2FC0CCC9AC2074A9E73662F /* TGCameraFocus.m in Sources */,
+				23B54BB78F159C0406D0B2F86C826FB4 /* TGCameraFocusView.m in Sources */,
+				2640306F927F6A8DEE65B3FC94A28181 /* TGCameraFunctions.m in Sources */,
+				28D391414F91A7D1B29D693AFF7BAE2A /* TGCameraGrid.m in Sources */,
+				B71A8B0660711A83E33BDE85956A3C95 /* TGCameraGridView.m in Sources */,
+				5758C753F16983504E1D30239A2BF545 /* TGCameraNavigationController.m in Sources */,
+				9F0FA259F62A7F1A18210F74AB858F30 /* TGCameraShot.m in Sources */,
+				FF631E64DA141753E0900CEAB687F970 /* TGCameraSlideDownView.m in Sources */,
+				8637FBD7E247F5DCDFD15D281A4EF12D /* TGCameraSlideUpView.m in Sources */,
+				88ADB3F6DF99853B01C590878C3960E9 /* TGCameraSlideView.m in Sources */,
+				D414458D4D290D23D6E5163AE184974E /* TGCameraToggle.m in Sources */,
+				356C1777014FC2E375FB434200228AA8 /* TGCameraViewController-dummy.m in Sources */,
+				4E0C3A2410E923F7750B40FA57EDAED1 /* TGCameraViewController.m in Sources */,
+				B33027C99A4102BA3652977128361463 /* TGPhotoViewController.m in Sources */,
+				4536C029EFF7CD32D5872A3946A89F86 /* TGTintedButton.m in Sources */,
+				BBC1514F26B8D1AEBADEDA9E3D1DE2DC /* TGTintedLabel.m in Sources */,
+				D0630B14CD37CDF5CD0D9972EA006096 /* UIImage+CameraFilters.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4B77A9BC915DDE9D0FF5C7969B8F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7667512D1239935C8D6311BA52468B /* Pods-storeApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10FA423FEED33B996A6A1DE9EE9285E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F40E3EA485859FA432D750C8DA3FCB /* HelperFunctions.swift in Sources */,
+				11EBD04977D17A99033C3CFCAA00C4D6 /* SQLite.swift in Sources */,
+				49A64404A6841341BD39D6F850246DF1 /* SQLiteManager-dummy.m in Sources */,
+				3B8BCCE7D110A839049E68DC2D375147 /* SQLiteManager.swift in Sources */,
+				93D288335789BDAD61CC1845236FB14A /* SQLiteManagerError.swift in Sources */,
+				2D7878C714C05AE4FBBE3AEA7065AE9C /* SQLitePool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA919F55F462AB5B953D709B4A14F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360A5359C8781E6E9EE3796D712FA9A2 /* sqlite3-dummy.m in Sources */,
+				1F08575FA5CE5960EE9D4F9A6517A336 /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,14 +1184,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBF63925EC603B95A3375829CE553FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75574205FF7D17D4CF5F23FC6D1AE210 /* SCLAlertView-dummy.m in Sources */,
+				B3D6DC0EFB2AFA59C310B91BAE44C2F8 /* SCLAlertView.swift in Sources */,
+				A59B3011E14D266D9D483ED09F740421 /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD207F972D5D12268EDBD16A83CBB919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1F20577E225810DCEC28B48E21504F /* SwiftyJSON-dummy.m in Sources */,
+				2B301ED2B3A957926321954FDC4397D6 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3205D294B5317E45C195170EADF1FFBC /* PBXTargetDependency */ = {
+		16FB2AD75F63111808E5BB78A891A8AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3;
+			target = 4F62B389F421DAA0DE439121B7306F3A /* sqlite3 */;
+			targetProxy = FBBBF06E635D04777BBA3DC350A50E8F /* PBXContainerItemProxy */;
+		};
+		1BDD83D3FB21CFFF370B34D0B076A52F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AlamofireImage;
 			target = 9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */;
-			targetProxy = 3DDD6B9D75EDD875C42D9C0F892ED0DC /* PBXContainerItemProxy */;
+			targetProxy = 40ABD4E824FD49F33D19D091CAACD768 /* PBXContainerItemProxy */;
+		};
+		3D317F3931B3ADB59F2263A09EC9C856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 11CDF88B08B67C11DBEAA9B2AA2D9A20 /* SwiftyJSON */;
+			targetProxy = FB9F1AF699CA0D6A9391474F0FD7F76C /* PBXContainerItemProxy */;
+		};
+		54E6658B47AB890FCC795D8E745DC732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLiteManager;
+			target = E44B825FC6B8D13869CC28A647DF1715 /* SQLiteManager */;
+			targetProxy = 7707BA33D5A502CDAF1C8337EE7B3DDA /* PBXContainerItemProxy */;
+		};
+		6AFA8BC341A021FC1D905594B4FFCDD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TGCameraViewController;
+			target = 5229021369C8A674461C5BB6839A5BA7 /* TGCameraViewController */;
+			targetProxy = 4B5A8B0629E1559E162EB806BFD4B00E /* PBXContainerItemProxy */;
+		};
+		829D23F375C476DD9646727D2C00AE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 38D459225D9F8FFE3FFBA935D03C10FD /* SCLAlertView */;
+			targetProxy = B7D72047A14AF67A83CB9416F2C7FA2B /* PBXContainerItemProxy */;
 		};
 		8937A2057A0DAADF003B7C65E7CE115D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -478,18 +1248,54 @@
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
 			targetProxy = A1758AA696D56310AA192B587162169A /* PBXContainerItemProxy */;
 		};
-		C29356F29059DA0647EDD7959A82807C /* PBXTargetDependency */ = {
+		8C3958EE9010072F18D9B53E1AA6F409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqlite3;
+			target = 4F62B389F421DAA0DE439121B7306F3A /* sqlite3 */;
+			targetProxy = 3668F8208C5E1FE49E16CBD45A56B6FE /* PBXContainerItemProxy */;
+		};
+		9FF2CE00A4C67C6E780E5F8FBB78BCB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 028FC59A5D2D2202559B07AC6AECB911 /* PBXContainerItemProxy */;
+			targetProxy = A18E9F2348011B1E8DD752971E9100F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61E3EDD743DCBFC37B78283CBF2EDDC5 /* TGPhotoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8111E7034F7CB6D69C7649818769A1 /* TGPhotoViewController.xib */,
+			);
+			name = TGPhotoViewController.xib;
+			path = TGCameraViewController/Classes/View;
+			sourceTree = "<group>";
+		};
+		639CEF86E900812D31521FD5D5F0CCD3 /* TGCameraAuthorizationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DECD9158352C3E0F2BF61A5227D382A /* TGCameraAuthorizationViewController.xib */,
+			);
+			name = TGCameraAuthorizationViewController.xib;
+			path = TGCameraViewController/Classes/View;
+			sourceTree = "<group>";
+		};
+		C5039DD1A1AD34AFDEC03586666EF4DE /* TGCameraViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4853DAAAC0200E140368D4A3293DB4F /* TGCameraViewController.xib */,
+			);
+			name = TGCameraViewController.xib;
+			path = TGCameraViewController/Classes/View;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 960A9ABC53BD0948226D437C9716C6B3 /* Alamofire.xcconfig */;
+			baseConfigurationReference = B58B87A879AF4640F9129B39EE49DB9A /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -518,6 +1324,75 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		0A629ED239BD64579D895EA6BF67F87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E62CF005D78A3E3F6778D40AA532193 /* SQLiteManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLiteManager/SQLiteManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLiteManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLiteManager/SQLiteManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SQLiteManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0BCC188851384EF08992E278A95C59A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7104B46153183E85699AD879A818FA3C /* Pods-storeApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-storeApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-storeApp/Pods-storeApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_storeApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -565,7 +1440,7 @@
 		};
 		168AC353350A012966FF45AF002B7312 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9CA9EFBD3188B5D7EB6B99C52233056 /* AlamofireImage.xcconfig */;
+			baseConfigurationReference = 0018113549E37DE1F3A4BAD0C384A507 /* AlamofireImage.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -595,9 +1470,105 @@
 			};
 			name = Release;
 		};
+		190DF01015E9FAE69DEB49D5B052D215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9349E42C648D21BAE3DFDE3C3D4488F3 /* TGCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TGCameraViewController/TGCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TGCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TGCameraViewController/TGCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TGCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FA7FD078B0AB0838055B5E83A4EB5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9349E42C648D21BAE3DFDE3C3D4488F3 /* TGCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TGCameraViewController/TGCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TGCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TGCameraViewController/TGCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TGCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60DBA3AF28FDB3E22FDD81903C4D81A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E910F34C0B2E5CF6D1EF794A35B00A4 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		708A3EB40A9780E5EFBACFC2C752A79A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9CA9EFBD3188B5D7EB6B99C52233056 /* AlamofireImage.xcconfig */;
+			baseConfigurationReference = 0018113549E37DE1F3A4BAD0C384A507 /* AlamofireImage.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -628,7 +1599,136 @@
 			};
 			name = Debug;
 		};
-		A98E8E66ADD94D91AF1B115D349E9621 /* Release */ = {
+		8537474C2A25C76F64C0E00169E7383F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9591F06FFA0BF6BF42463EBF33235658 /* sqlite3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/sqlite3/sqlite3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sqlite3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sqlite3/sqlite3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = sqlite3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B17BBA90EB29BA012653838616F133F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E62CF005D78A3E3F6778D40AA532193 /* SQLiteManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SQLiteManager/SQLiteManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLiteManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLiteManager/SQLiteManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SQLiteManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		975E63EC2E1E4A31B7C2DFB5BC98E945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CFD8413F5CE587B79C81DA9BD9119D /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A34496DB98E9DA11AF567DBC4FA3F326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9591F06FFA0BF6BF42463EBF33235658 /* sqlite3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/sqlite3/sqlite3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/sqlite3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/sqlite3/sqlite3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = sqlite3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A34B09075AF68609B670319FF89FDA47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC68CCCB187D78575069487CEE2D39E8 /* Pods-storeApp.release.xcconfig */;
 			buildSettings = {
@@ -663,41 +1763,37 @@
 			};
 			name = Release;
 		};
-		D762C48741A54A2A72CBCADA1C828541 /* Debug */ = {
+		DBB7732BCBEE637CD2D97895F660A876 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7104B46153183E85699AD879A818FA3C /* Pods-storeApp.debug.xcconfig */;
+			baseConfigurationReference = E5CFD8413F5CE587B79C81DA9BD9119D /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-storeApp/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-storeApp/Pods-storeApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_storeApp;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -739,9 +1835,42 @@
 			};
 			name = Release;
 		};
+		F057914F7391368CA447D6BBDB9B52B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E910F34C0B2E5CF6D1EF794A35B00A4 /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 960A9ABC53BD0948226D437C9716C6B3 /* Alamofire.xcconfig */;
+			baseConfigurationReference = B58B87A879AF4640F9129B39EE49DB9A /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -784,6 +1913,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1F853E94D41B664DA769CFF1AF0BE1D8 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F057914F7391368CA447D6BBDB9B52B8 /* Debug */,
+				60DBA3AF28FDB3E22FDD81903C4D81A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -802,11 +1940,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		999E9950FFD2B28905BAC1E7AB7B599F /* Build configuration list for PBXNativeTarget "Pods-storeApp" */ = {
+		7303ED52BAC4AAFADD7C927CDAD9A248 /* Build configuration list for PBXNativeTarget "SQLiteManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D762C48741A54A2A72CBCADA1C828541 /* Debug */,
-				A98E8E66ADD94D91AF1B115D349E9621 /* Release */,
+				0A629ED239BD64579D895EA6BF67F87E /* Debug */,
+				8B17BBA90EB29BA012653838616F133F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD3AC0A54BEC180A922D6E3F10A642F /* Build configuration list for PBXNativeTarget "TGCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190DF01015E9FAE69DEB49D5B052D215 /* Debug */,
+				5FA7FD078B0AB0838055B5E83A4EB5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D26DE1AC4B49EDC39DF1691C53DD7E /* Build configuration list for PBXNativeTarget "Pods-storeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCC188851384EF08992E278A95C59A3 /* Debug */,
+				A34B09075AF68609B670319FF89FDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44270F9BB6C07FFC8DB22188A2DA476 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975E63EC2E1E4A31B7C2DFB5BC98E945 /* Debug */,
+				DBB7732BCBEE637CD2D97895F660A876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F383C449E76A17AE6FCD28535936FA5A /* Build configuration list for PBXNativeTarget "sqlite3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8537474C2A25C76F64C0E00169E7383F /* Debug */,
+				A34496DB98E9DA11AF567DBC4FA3F326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
