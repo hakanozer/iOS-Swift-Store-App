@@ -2,6 +2,9 @@ PODS:
   - Alamofire (4.2.0)
   - AlamofireImage (3.2.0):
     - Alamofire (~> 4.1)
+  - Auk (7.0.1):
+    - moa
+  - moa (8.0.2)
   - SCLAlertView (0.7.0)
   - sqlite3 (3.15.2):
     - sqlite3/common (= 3.15.2)
@@ -14,6 +17,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage
+  - Auk (~> 7.0)
   - SCLAlertView
   - SQLiteManager
   - SwiftyJSON
@@ -22,12 +26,14 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
   AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Auk: 6f8c4e93427d0d02641263776dd3b66ae4050903
+  moa: 73d2dd56fe838a31e255c64b7873d2c2fbc71076
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   sqlite3: 85c03fced2fc4df2374c8bee4299ccf0aee381b8
   SQLiteManager: 0e444c4fb90b4dd9ac75c47d68dc85ce1276b335
   SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
   TGCameraViewController: 2e1ca4c286f643df01c70c478422814ed025e4a7
 
-PODFILE CHECKSUM: a6d784b15e835688b2a02df8d6ddae873079de06
+PODFILE CHECKSUM: 5edec139c947514c43ed75e32a1980e24f7d265b
 
 COCOAPODS: 1.2.0.beta.1

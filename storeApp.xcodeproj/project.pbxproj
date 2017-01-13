@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309C99111E1458F5005D9FA3 /* productPictureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309C99101E1458F5005D9FA3 /* productPictureVC.swift */; };
+		9A2F82941E102AB300A5AB38 /* productDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F82931E102AB300A5AB38 /* productDetailVC.swift */; };
+		9A2F82961E107E8900A5AB38 /* resim2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2F82951E107E8800A5AB38 /* resim2.png */; };
+		9A2F82981E107E9B00A5AB38 /* resim1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A2F82971E107E9B00A5AB38 /* resim1.jpg */; };
+		9ACDD0351E101705007BCA47 /* productListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDD0341E101705007BCA47 /* productListTVC.swift */; };
+		9ACDD0371E101C2A007BCA47 /* yukleniyor.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ACDD0361E101C2A007BCA47 /* yukleniyor.png */; };
 		B4DB6C9EEFA3EAA5296BD26D /* Pods_storeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937807CE9FFCA5D42E450A91 /* Pods_storeApp.framework */; };
 		FFE5F31C1E0FB6430094049F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5F31B1E0FB6430094049F /* AppDelegate.swift */; };
 		FFE5F31E1E0FB6430094049F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5F31D1E0FB6430094049F /* ViewController.swift */; };
@@ -17,7 +23,13 @@
 
 /* Begin PBXFileReference section */
 		13396F7951D1FE5F904ACAEF /* Pods-storeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-storeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-storeApp/Pods-storeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		309C99101E1458F5005D9FA3 /* productPictureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productPictureVC.swift; sourceTree = "<group>"; };
 		937807CE9FFCA5D42E450A91 /* Pods_storeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_storeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2F82931E102AB300A5AB38 /* productDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productDetailVC.swift; sourceTree = "<group>"; };
+		9A2F82951E107E8800A5AB38 /* resim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resim2.png; sourceTree = "<group>"; };
+		9A2F82971E107E9B00A5AB38 /* resim1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resim1.jpg; sourceTree = "<group>"; };
+		9ACDD0341E101705007BCA47 /* productListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productListTVC.swift; sourceTree = "<group>"; };
+		9ACDD0361E101C2A007BCA47 /* yukleniyor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yukleniyor.png; sourceTree = "<group>"; };
 		F7B0449F2683CBFB2D3A9D38 /* Pods-storeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-storeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-storeApp/Pods-storeApp.release.xcconfig"; sourceTree = "<group>"; };
 		FFE5F3181E0FB6430094049F /* storeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE5F31B1E0FB6430094049F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +90,15 @@
 		FFE5F31A1E0FB6430094049F /* storeApp */ = {
 			isa = PBXGroup;
 			children = (
+				9A2F82971E107E9B00A5AB38 /* resim1.jpg */,
+				9A2F82951E107E8800A5AB38 /* resim2.png */,
+				9ACDD0361E101C2A007BCA47 /* yukleniyor.png */,
 				FFE5F31B1E0FB6430094049F /* AppDelegate.swift */,
 				FFE5F31D1E0FB6430094049F /* ViewController.swift */,
 				FFE5F31F1E0FB6430094049F /* Main.storyboard */,
+				309C99101E1458F5005D9FA3 /* productPictureVC.swift */,
+				9A2F82931E102AB300A5AB38 /* productDetailVC.swift */,
+				9ACDD0341E101705007BCA47 /* productListTVC.swift */,
 				FFE5F3221E0FB6430094049F /* Assets.xcassets */,
 				FFE5F3241E0FB6430094049F /* LaunchScreen.storyboard */,
 				FFE5F3271E0FB6430094049F /* Info.plist */,
@@ -150,8 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACDD0371E101C2A007BCA47 /* yukleniyor.png in Resources */,
 				FFE5F3261E0FB6430094049F /* LaunchScreen.storyboard in Resources */,
 				FFE5F3231E0FB6430094049F /* Assets.xcassets in Resources */,
+				9A2F82981E107E9B00A5AB38 /* resim1.jpg in Resources */,
+				9A2F82961E107E8900A5AB38 /* resim2.png in Resources */,
 				FFE5F3211E0FB6430094049F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACDD0351E101705007BCA47 /* productListTVC.swift in Sources */,
+				9A2F82941E102AB300A5AB38 /* productDetailVC.swift in Sources */,
 				FFE5F31E1E0FB6430094049F /* ViewController.swift in Sources */,
+				309C99111E1458F5005D9FA3 /* productPictureVC.swift in Sources */,
 				FFE5F31C1E0FB6430094049F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -322,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -337,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = storeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hakan.storeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = storeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hakan.storeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +402,7 @@
 				FFE5F32C1E0FB6430094049F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
