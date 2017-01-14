@@ -12,6 +12,7 @@ import Auk
 import AlamofireImage
 import Alamofire
 import SCLAlertView
+import SQLiteManager
 
 class productDetailVC: UIViewController,UIScrollViewDelegate,UIPickerViewDelegate, UIPickerViewDataSource,UITextFieldDelegate, UIPopoverPresentationControllerDelegate {
     
@@ -27,16 +28,29 @@ class productDetailVC: UIViewController,UIScrollViewDelegate,UIPickerViewDelegat
     @IBOutlet weak var lblBirimFiyati: UILabel!
     @IBOutlet weak var lblToplamTutar: UILabel!
     
-    
-    
+    var appearance = SCLAlertView.SCLAppearance()
+    var loading = SCLAlertView()
+
+    let db =  try! SQLitePool.manager().initialize(database: "storeAppDB", withExtension: "db")
+
     
     
 
     var data:JSON = []
     var unitList:[String] = []
+    var userId:Int = 0
+    
     
     override func viewDidLoad() {
          super.viewDidLoad()
+            userId = 123
+        
+        appearance = SCLAlertView.SCLAppearance(
+            
+            showCloseButton: false
+        )
+
+        productListTVC.calisDurum = 1
    
         for item in 1...10 { // stok bilgisi olmadığı için 1 den 10'a kadar oluşturdum.
             
@@ -187,8 +201,9 @@ class productDetailVC: UIViewController,UIScrollViewDelegate,UIPickerViewDelegat
     
     @IBAction func btnbackToProductList(_ sender: UIBarButtonItem) { //Ürün listesine geri dön
         dismiss(animated: true, completion: nil) // Programi yormasin diye ekledim
-        performSegue(withIdentifier: "backToProductList", sender: nil)
-        
+        //performSegue(withIdentifier: "backToProductList", sender: nil)
+        //navigationController?.dismiss(animated: true, completion: nil)
+       // let g = navigationController?.popToRootViewController(animated: true)
     }
     
     @IBAction func btnAddToBasket(_ sender: UIBarButtonItem) {
@@ -200,13 +215,16 @@ class productDetailVC: UIViewController,UIScrollViewDelegate,UIPickerViewDelegat
 
     func fncInsert(productId:Int, productName:String, unitPrice:String, unit:Int, totalPrice:String) // sqlLite'a buradan veri basıyorum.
     {
-        print("productId : \(productId)")
-        print("productName : \(productName)")
-        print("unitPrice : \(unitPrice)")
-        print("unit : \(unit)")
-        print("totalPrice : \(totalPrice)")
-
+        loading = SCLAlertView(appearance: appearance)
         
+
+        let sonuc = try! db.query("insert into sepet values(null,\(userId),\(productId),'\(productName)','\(unitPrice)',\(unit),'\(totalPrice)')")
+        // yazma denetimi
+        if sonuc.affectedRowCount > 0 {
+            loading.showSuccess("Bilgilendirme" ,subTitle: "Ürün sepete eklendi.", duration:1.0)
+        }else {
+            loading.showError("HATA", subTitle: "Ürün sepete eklenirken bir hata oluştu", duration:2.0)
+        }
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int { //UIPickerView satır sayısı

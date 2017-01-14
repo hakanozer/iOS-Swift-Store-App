@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3Ex-v6-g2Q">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3Ex-v6-g2Q">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -58,13 +58,14 @@
                             <outlet property="delegate" destination="3Ex-v6-g2Q" id="UNt-yY-qtQ"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="6K8-3H-icb"/>
                     <connections>
                         <segue destination="bfe-HL-rhl" kind="show" identifier="productDetail" id="xqh-zn-Gf4"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cml-Lu-iQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="101"/>
+            <point key="canvasLocation" x="1112.8" y="98.50074962518741"/>
         </scene>
         <!--Product DetailVC-->
         <scene sceneID="Vdx-dd-ZVM">
@@ -182,15 +183,15 @@
                         <outlet property="txtTotalPrice" destination="M2B-G9-PB0" id="naP-qM-Vr8"/>
                         <outlet property="txtUnit" destination="tHV-GS-SfB" id="8xR-6b-SrC"/>
                         <outlet property="txtUnitPrice" destination="S5S-9O-vNB" id="XRE-WO-y8H"/>
-                        <segue destination="3Ex-v6-g2Q" kind="show" identifier="backToProductList" id="R6t-5y-XzJ"/>
                         <segue destination="IWq-QS-r6r" kind="popoverPresentation" identifier="productPicture" popoverAnchorView="Pym-n8-dRJ" id="X1N-vN-swm">
                             <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                         </segue>
+                        <segue destination="3Ex-v6-g2Q" kind="show" identifier="backToProductList" id="FlZ-5g-ICr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f2i-vO-iOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="933.60000000000002" y="99.400299850074973"/>
+            <point key="canvasLocation" x="1844" y="98.50074962518741"/>
         </scene>
         <!--Product PictureVC-->
         <scene sceneID="ULn-lL-OKW">
@@ -227,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e9t-Xl-lkL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1607.2" y="99.400299850074973"/>
+            <point key="canvasLocation" x="2546.4000000000001" y="99.400299850074973"/>
         </scene>
     </scenes>
     <resources>

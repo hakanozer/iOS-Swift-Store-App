@@ -16,7 +16,7 @@ class productListTVC: UITableViewController {
     
     
     let yeni = UIRefreshControl()
-    
+    static var calisDurum = 0
     var appearance = SCLAlertView.SCLAppearance()
     var loading = SCLAlertView()
     
@@ -33,20 +33,27 @@ class productListTVC: UITableViewController {
         yeni.beginRefreshing()
         self.tableView.addSubview(yeni)
         
-       
+       dataGetir(catID: "37")
        
     }
     
     override func viewDidAppear(_ animated: Bool) {
-         dataGetir(catID: "37")
+        if productListTVC.calisDurum == 0 {
+        loading = SCLAlertView(appearance: appearance)
+        loading.showWait("Lütfen Bekleyin" ,subTitle: "Ürünler yükleniyor...")
+        }
+        
     }
 
     
     func dataGetir(catID:String){
+        if productListTVC.calisDurum == 1 {
+            loading = SCLAlertView(appearance: appearance)
+            loading.showWait("Lütfen Bekleyin" ,subTitle: "Ürünler yükleniyor...")
+        }
+        //loading = SCLAlertView(appearance: appearance)
         
-        loading = SCLAlertView(appearance: appearance)
-        
-        loading.showWait("Lütfen Bekleyin" ,subTitle: "Ürünler yükleniyor...")
+        //loading.showWait("Lütfen Bekleyin" ,subTitle: "Ürünler yükleniyor...")
 
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
         let url = "http://jsonbulut.com/json/product.php?ref=b7e55c8ed007bc921ac646df023a4dcd&start=1&count=100&categoryId="+catID
@@ -60,8 +67,7 @@ class productListTVC: UITableViewController {
         self.yeni.endRefreshing() // yenileme animasyonunu durdur
        
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
-        
-        
+        loading.hideView()
     }
     
     

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		309C99111E1458F5005D9FA3 /* productPictureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309C99101E1458F5005D9FA3 /* productPictureVC.swift */; };
+		3FADA6C51E2A1593007E2DE2 /* storeAppDB.db in Resources */ = {isa = PBXBuildFile; fileRef = 3FADA6C41E2A1593007E2DE2 /* storeAppDB.db */; };
 		9A2F82941E102AB300A5AB38 /* productDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F82931E102AB300A5AB38 /* productDetailVC.swift */; };
 		9A2F82961E107E8900A5AB38 /* resim2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A2F82951E107E8800A5AB38 /* resim2.png */; };
 		9A2F82981E107E9B00A5AB38 /* resim1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A2F82971E107E9B00A5AB38 /* resim1.jpg */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		13396F7951D1FE5F904ACAEF /* Pods-storeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-storeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-storeApp/Pods-storeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		309C99101E1458F5005D9FA3 /* productPictureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productPictureVC.swift; sourceTree = "<group>"; };
+		3FADA6C41E2A1593007E2DE2 /* storeAppDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = storeAppDB.db; sourceTree = "<group>"; };
 		937807CE9FFCA5D42E450A91 /* Pods_storeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_storeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2F82931E102AB300A5AB38 /* productDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productDetailVC.swift; sourceTree = "<group>"; };
 		9A2F82951E107E8800A5AB38 /* resim2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resim2.png; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3FADA6C31E2A1576007E2DE2 /* dBase */ = {
+			isa = PBXGroup;
+			children = (
+				3FADA6C41E2A1593007E2DE2 /* storeAppDB.db */,
+			);
+			name = dBase;
+			sourceTree = "<group>";
+		};
 		63AC0A1ABC4F1F620857ECC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		FFE5F31A1E0FB6430094049F /* storeApp */ = {
 			isa = PBXGroup;
 			children = (
+				3FADA6C31E2A1576007E2DE2 /* dBase */,
 				9A2F82971E107E9B00A5AB38 /* resim1.jpg */,
 				9A2F82951E107E8800A5AB38 /* resim2.png */,
 				9ACDD0361E101C2A007BCA47 /* yukleniyor.png */,
@@ -170,6 +181,7 @@
 			files = (
 				9ACDD0371E101C2A007BCA47 /* yukleniyor.png in Resources */,
 				FFE5F3261E0FB6430094049F /* LaunchScreen.storyboard in Resources */,
+				3FADA6C51E2A1593007E2DE2 /* storeAppDB.db in Resources */,
 				FFE5F3231E0FB6430094049F /* Assets.xcassets in Resources */,
 				9A2F82981E107E9B00A5AB38 /* resim1.jpg in Resources */,
 				9A2F82961E107E8900A5AB38 /* resim2.png in Resources */,
