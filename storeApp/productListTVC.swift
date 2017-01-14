@@ -29,7 +29,7 @@ class productListTVC: UITableViewController {
             )
         
         yeni.attributedTitle = NSAttributedString(string: "Yenile")
-        yeni.addTarget(self, action: #selector(productListTVC.dataGetir), for: UIControlEvents.valueChanged)
+        yeni.addTarget(self, action: #selector(productListTVC.yenile), for: UIControlEvents.valueChanged)
         yeni.beginRefreshing()
         self.tableView.addSubview(yeni)
         
@@ -45,6 +45,10 @@ class productListTVC: UITableViewController {
         
     }
 
+    func yenile() {
+        dataGetir(catID: "37")
+    }
+    
     
     func dataGetir(catID:String){
         if productListTVC.calisDurum == 1 {

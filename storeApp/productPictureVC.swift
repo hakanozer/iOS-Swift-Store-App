@@ -28,7 +28,7 @@ class productPictureVC: UIViewController, UIScrollViewDelegate {
         
         self.scrollV.minimumZoomScale = 1.0
         self.scrollV.maximumZoomScale = 6.0
-        
+
     }
 
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
