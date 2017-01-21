@@ -16,6 +16,9 @@ import SQLiteManager
 
 class productDetailVC: UIViewController,UIScrollViewDelegate,UIPickerViewDelegate, UIPickerViewDataSource,UITextFieldDelegate, UIPopoverPresentationControllerDelegate {
     
+    @IBAction func Sepetim(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: "sepet", sender: nil)
+    }
     @IBOutlet weak var lblBaslik: UILabel!
     @IBOutlet weak var detayWebView: UIWebView!
   

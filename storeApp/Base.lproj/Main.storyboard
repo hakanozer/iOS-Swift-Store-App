@@ -18,6 +18,20 @@
                         <view key="tableHeaderView" alpha="0.69999999999999996" contentMode="scaleToFill" id="NlH-6d-mXt">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ums-4t-4aS">
+                                    <frame key="frameInset" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <items>
+                                        <barButtonItem title="Sepetim" id="yBg-qg-dPS">
+                                            <connections>
+                                                <action selector="fncSepetim:" destination="3Ex-v6-g2Q" id="h96-h7-48i"/>
+                                                <segue destination="rsk-ek-JuR" kind="show" id="xA6-BD-fa7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </items>
+                                </toolbar>
+                            </subviews>
                             <color key="backgroundColor" red="0.38790409980000001" green="1" blue="0.4351036673" alpha="0.5254441353" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <prototypes>
@@ -94,6 +108,12 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="RUt-I5-Oiz"/>
+                                    <barButtonItem title="Sepetim" id="9j0-h8-wz3">
+                                        <connections>
+                                            <action selector="Sepetim:" destination="bfe-HL-rhl" id="66N-IA-xqB"/>
+                                            <segue destination="rsk-ek-JuR" kind="show" identifier="sepet" id="Oo6-a7-s2w"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem title="Sepete Ekle" id="Tgf-qc-dIh">
                                         <connections>
                                             <action selector="btnAddToBasket:" destination="bfe-HL-rhl" id="WuK-NU-omb"/>
@@ -240,9 +260,80 @@
             </objects>
             <point key="canvasLocation" x="2546.4000000000001" y="99.400299850074973"/>
         </scene>
+        <!--Sepet Table View Controller-->
+        <scene sceneID="mIT-0u-w9l">
+            <objects>
+                <tableViewController id="rsk-ek-JuR" customClass="SepetTableViewController" customModule="storeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yZC-j2-mQr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="7vD-XQ-693">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-IE-FSa">
+                                    <frame key="frameInset" minX="16" minY="14" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                    <state key="normal" title="&lt;"/>
+                                    <connections>
+                                        <action selector="fncGeri:" destination="rsk-ek-JuR" eventType="touchUpInside" id="Cn3-Nh-vRD"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkP-UH-SVH">
+                                    <frame key="frameInset" minY="20" width="116" height="30" maxX="8"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Siparişi Tamamla"/>
+                                    <connections>
+                                        <action selector="fncSiparisTamala:" destination="rsk-ek-JuR" eventType="touchUpInside" id="s5s-yT-5gG"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.91878681282722519" green="0.91878681282722519" blue="0.91878681282722519" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="Td9-wv-Bjo" detailTextLabel="itF-xw-SVd" style="IBUITableViewCellStyleSubtitle" id="uW5-LF-f53">
+                                <rect key="frame" x="0.0" y="86" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uW5-LF-f53" id="q7h-uk-zEY">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Td9-wv-Bjo">
+                                            <frame key="frameInset" minX="15" minY="4" width="34" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="itF-xw-SVd">
+                                            <frame key="frameInset" minX="15" minY="25" width="44" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rsk-ek-JuR" id="zZb-yS-pl4"/>
+                            <outlet property="delegate" destination="rsk-ek-JuR" id="fFw-Qa-5UF"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="844-8m-NEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3207" y="99"/>
+        </scene>
     </scenes>
     <resources>
         <image name="resim1.jpg" width="750" height="1334"/>
         <image name="yukleniyor.png" width="48" height="48"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="xA6-BD-fa7"/>
+    </inferredMetricsTieBreakers>
 </document>

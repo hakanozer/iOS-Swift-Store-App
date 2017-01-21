@@ -37,6 +37,9 @@ class productListTVC: UITableViewController {
        
     }
     
+    @IBAction func fncSepetim(_ sender: UIBarButtonItem) {
+        performSegue(withIdentifier: "sepet", sender: nil)
+    }
     override func viewDidAppear(_ animated: Bool) {
         if productListTVC.calisDurum == 0 {
         loading = SCLAlertView(appearance: appearance)

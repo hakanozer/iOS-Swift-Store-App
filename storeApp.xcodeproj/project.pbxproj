@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CCEFB211E2B7EDA00035381 /* SepetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEFB201E2B7EDA00035381 /* SepetTableViewController.swift */; };
 		309C99111E1458F5005D9FA3 /* productPictureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309C99101E1458F5005D9FA3 /* productPictureVC.swift */; };
 		3FADA6C51E2A1593007E2DE2 /* storeAppDB.db in Resources */ = {isa = PBXBuildFile; fileRef = 3FADA6C41E2A1593007E2DE2 /* storeAppDB.db */; };
 		9A2F82941E102AB300A5AB38 /* productDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F82931E102AB300A5AB38 /* productDetailVC.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CCEFB201E2B7EDA00035381 /* SepetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SepetTableViewController.swift; sourceTree = "<group>"; };
 		13396F7951D1FE5F904ACAEF /* Pods-storeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-storeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-storeApp/Pods-storeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		309C99101E1458F5005D9FA3 /* productPictureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = productPictureVC.swift; sourceTree = "<group>"; };
 		3FADA6C41E2A1593007E2DE2 /* storeAppDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = storeAppDB.db; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				FFE5F31B1E0FB6430094049F /* AppDelegate.swift */,
 				FFE5F31D1E0FB6430094049F /* ViewController.swift */,
 				FFE5F31F1E0FB6430094049F /* Main.storyboard */,
+				0CCEFB201E2B7EDA00035381 /* SepetTableViewController.swift */,
 				309C99101E1458F5005D9FA3 /* productPictureVC.swift */,
 				9A2F82931E102AB300A5AB38 /* productDetailVC.swift */,
 				9ACDD0341E101705007BCA47 /* productListTVC.swift */,
@@ -249,6 +252,7 @@
 				FFE5F31E1E0FB6430094049F /* ViewController.swift in Sources */,
 				309C99111E1458F5005D9FA3 /* productPictureVC.swift in Sources */,
 				FFE5F31C1E0FB6430094049F /* AppDelegate.swift in Sources */,
+				0CCEFB211E2B7EDA00035381 /* SepetTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
