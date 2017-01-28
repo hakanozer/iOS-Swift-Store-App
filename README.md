@@ -1,4 +1,4 @@
-# storeApp
+# Store App iOS - Swift 3
 iOS SWift 3.0 ile bir işletmenin bütün ürün sergileme ihtiyacını karşılayan bir mobile uygulamadır.
 
 <img src="https://github.com/hakanozer/storeApp/blob/master/Secreen/1.png" width="200" target="_blank"/>
