@@ -11,5 +11,7 @@ target 'storeApp' do
  pod 'SCLAlertView'
  pod 'TGCameraViewController'
  pod 'SwiftyJSON'
-pod 'Auk', '~> 7.0'
+ pod 'Auk', '~> 7.0'
+ pod 'SVProgressHUD'
+ 
 end

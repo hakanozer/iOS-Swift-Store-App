@@ -11,6 +11,7 @@ PODS:
   - sqlite3/common (3.15.2)
   - SQLiteManager (0.2.5):
     - sqlite3
+  - SVProgressHUD (2.1.2)
   - SwiftyJSON (3.1.3)
   - TGCameraViewController (2.2.7)
 
@@ -20,6 +21,7 @@ DEPENDENCIES:
   - Auk (~> 7.0)
   - SCLAlertView
   - SQLiteManager
+  - SVProgressHUD
   - SwiftyJSON
   - TGCameraViewController
 
@@ -31,9 +33,10 @@ SPEC CHECKSUMS:
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   sqlite3: 85c03fced2fc4df2374c8bee4299ccf0aee381b8
   SQLiteManager: 0e444c4fb90b4dd9ac75c47d68dc85ce1276b335
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
   TGCameraViewController: 2e1ca4c286f643df01c70c478422814ed025e4a7
 
-PODFILE CHECKSUM: 5edec139c947514c43ed75e32a1980e24f7d265b
+PODFILE CHECKSUM: e01371824fd4a2ecac224dd105a97b5065564ffd
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.1.1

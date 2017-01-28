@@ -40,13 +40,7 @@ class productListTVC: UITableViewController {
     @IBAction func fncSepetim(_ sender: UIBarButtonItem) {
         performSegue(withIdentifier: "sepet", sender: nil)
     }
-    override func viewDidAppear(_ animated: Bool) {
-        if productListTVC.calisDurum == 0 {
-        loading = SCLAlertView(appearance: appearance)
-        loading.showWait("Lütfen Bekleyin" ,subTitle: "Ürünler yükleniyor...")
-        }
-        
-    }
+
 
     func yenile() {
         dataGetir(catID: "37")
@@ -54,10 +48,10 @@ class productListTVC: UITableViewController {
     
     
     func dataGetir(catID:String){
-        if productListTVC.calisDurum == 1 {
+        
             loading = SCLAlertView(appearance: appearance)
-            loading.showWait("Lütfen Bekleyin" ,subTitle: "Ürünler yükleniyor...")
-        }
+            loading.showWait("Lütfen Bekleyin" ,subTitle: "Ürünler yükleniyor...", closeButtonTitle: "Tamam")
+        
         //loading = SCLAlertView(appearance: appearance)
         
         //loading.showWait("Lütfen Bekleyin" ,subTitle: "Ürünler yükleniyor...")
@@ -68,13 +62,14 @@ class productListTVC: UITableViewController {
             if let data = response.result.value {
                 self.json = JSON(data)
                 self.json = self.json["Products"][0]["bilgiler"]
+                
                 self.tableView.reloadData()
             }
         }
+        self.loading.hideView()
         self.yeni.endRefreshing() // yenileme animasyonunu durdur
-       
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
-        loading.hideView()
+        
     }
     
     

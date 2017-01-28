@@ -16,7 +16,7 @@ import SQLiteManager
 
 class SepetTableViewController: UITableViewController {
     
-    var data : SQLiteDataArray?
+    var data : SQLiteDataArray? = []
     let db =  try! SQLitePool.manager().initialize(database: "storeAppDB", withExtension: "db")
     
     
@@ -62,6 +62,7 @@ class SepetTableViewController: UITableViewController {
     
     
     @IBAction func fncGeri(_ sender: UIButton) {
+        productListTVC.calisDurum = 1
         self.dismiss(animated: true, completion: nil)
     }
     
@@ -96,18 +97,24 @@ class SepetTableViewController: UITableViewController {
     }
     
 
+    var userID = "-1"
     @IBAction func fncSiparisTamala(_ sender: UIButton) {
         
-        
+        // kullanıcı kontrolü 
+        if UserDefaults.standard.object(forKey: "userID") == nil {
+            // kullanıcı kayıtlı değil yönlendir !
+            performSegue(withIdentifier: "girisKayit", sender: nil)
+            
+        }else {
         // kontrol - sepette ürün var mı ?
-        if (self.data?.count)! > 0 {
-            var userID:String = ""
+        userID = UserDefaults.standard.object(forKey: "userID") as! String
+        if self.data != nil {
             var ids:String = ""
             for item in self.data! {
                 ids += ",\(item["productId"] as! Int)"
-                userID = "\(item["userId"] as! Int)"
+                //userID = "\(item["userId"] as! Int)"
             }
-            let gdic:[String:String] = ["ref":"b7e55c8ed007bc921ac646df023a4dcd","customerId":userID, "productId":"1","html":ids]            
+            let gdic:[String:String] = ["ref":"b7e55c8ed007bc921ac646df023a4dcd","customerId":userID, "productId":"1","html":ids]
             Alamofire.request("http://jsonbulut.com/json/orderForm.php", method: .get, parameters: gdic, encoding: URLEncoding.default, headers: nil).responseJSON { response in
                 if let jdata = response.result.value {
                     let jsonData = JSON(jdata)
@@ -115,7 +122,7 @@ class SepetTableViewController: UITableViewController {
                     if durum == true {
                         // gönderim başarılı
                         // veritabanını temizle
-                        let silDurum = try! self.db.query("delete from sepet where userId = \(userID)")
+                        let silDurum = try! self.db.query("delete from sepet where userId = \(-1)")
                         if silDurum.affectedRowCount > 0 {
                             self.data?.removeAll()
                             self.tableView.reloadData()
@@ -134,7 +141,7 @@ class SepetTableViewController: UITableViewController {
         
         
         
-        
+        }
     }
 
 

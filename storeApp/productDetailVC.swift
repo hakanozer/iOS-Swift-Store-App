@@ -41,12 +41,11 @@ class productDetailVC: UIViewController,UIScrollViewDelegate,UIPickerViewDelegat
 
     var data:JSON = []
     var unitList:[String] = []
-    var userId:Int = 0
+    let userId:Int = -1
     
     
     override func viewDidLoad() {
          super.viewDidLoad()
-            userId = 123
         
         appearance = SCLAlertView.SCLAppearance(
             

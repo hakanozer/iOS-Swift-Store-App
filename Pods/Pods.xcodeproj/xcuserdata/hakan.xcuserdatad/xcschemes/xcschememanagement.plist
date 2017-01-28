@@ -8,117 +8,66 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>AlamofireImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Auk.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-storeApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>SCLAlertView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>SQLiteManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
+		</dict>
+		<key>SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
 		</dict>
 		<key>TGCameraViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>8</integer>
 		</dict>
 		<key>moa.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>sqlite3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>04C2FA9E7C7577CAA2ABEA284FFCC0D5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>0B005404BF7714D31608ADB2D5FCF4CD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>11CDF88B08B67C11DBEAA9B2AA2D9A20</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>14465FC28324FBB065DDCCBD77FA238C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>38D459225D9F8FFE3FFBA935D03C10FD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>427DF9E7AD98096E30DCCB5CFC9F777E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4E87D57A82813BEE8DB17D3B19055CBF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4F62B389F421DAA0DE439121B7306F3A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5229021369C8A674461C5BB6839A5BA7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>651DD4B8E7F8D6E988AA33D4173019A4</key>
+		<key>7D94099A1F8C271FC324F59B4BB26188</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -128,17 +77,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>89E96EE4E8405AF8247E0096A36D4BDC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C90EBCBF36BF14B93975F64DDE87BE6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98A5A824AC0D395C14675A36BAC69A8F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9EFE4C70245EE2857D336B8B9FA4E825</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FE8F5C003386A0419F905A3C6104635</key>
+		<key>9F6077BEF0A2A76709551F973D3617C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AD1FEA00C0397197A229FCAF4F0A92CC</key>
+		<key>B2494E49C9C842DD231368097BCBFF6B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -148,7 +112,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E44B825FC6B8D13869CC28A647DF1715</key>
+		<key>CAC576D3C668C62084F5DCA2635C2856</key>
 		<dict>
 			<key>primary</key>
 			<true/>
